@@ -136,7 +136,7 @@ outfit "Fission Core"
 	"outfit space" -33
 	"energy generation" 5.2
 	"heat generation" 19.4
-	description "With the intergration of Humans into Sheragi space came the request for more compatible technology, the Sheragi's solution was to simply sell fission drives without the engine components as alternatives to some of the Human reactors available. However"
+	description "With the intergration of Humans into Sheragi space came the request for more compatible technology, the Sheragi's solution was to simply sell fission drives without the engine components as alternatives to some of the Human reactors available. However, some Sheragi have begun adopting the tactic of greater energy generation in favour of large batteries."
 
 outfit "Fusion Core"
 	category "Power"
