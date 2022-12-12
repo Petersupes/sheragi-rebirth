@@ -1,0 +1,19 @@
+start "Sheragi Test Start"
+	name "Sheragi Test Start"
+	description `Sheragi Test Start`
+	thumbnail "scene/emeraldswordderelict"
+	date 16 11 3013
+	system "Zubeneschamali"
+	planet "Zug"
+	conversation "test intro"
+	account
+		credits 1000000000
+		score 400
+	set "license: Pilot's"
+	set "license: Sheragi"
+	set "license: Sheragi Capital"
+
+conversation "test intro"
+	`Name:`
+	name
+	`Sheragi Time Bitches`
