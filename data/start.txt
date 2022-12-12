@@ -3,8 +3,8 @@ start "Sheragi Test Start"
 	description `Sheragi Test Start`
 	thumbnail "scene/emeraldswordderelict"
 	date 16 11 3013
-	system "Zubeneschamali"
-	planet "Zug"
+	system "Adun"
+	planet "Shio"
 	conversation "test intro"
 	account
 		credits 1000000000

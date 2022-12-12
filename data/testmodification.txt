@@ -31,9 +31,3 @@ outfitter "Sheragi Test Outfitter"
 	"Kinetic Spear Launcher"
 	"Particle Waveform Cannon"
 	"Jump Drive"
-
-
-planet "Zug"
-	outfitter "Sheragi Test Outfitter"
-	shipyard "Sheragi Basic"
-	shipyard "Sheragi Advanced"
