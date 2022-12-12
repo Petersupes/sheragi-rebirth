@@ -70,7 +70,8 @@ system Aegra
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	object
 		sprite star/m0
 		period 10
@@ -174,7 +175,8 @@ system Andowinor
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	object
 		sprite star/g0
 		period 10
@@ -290,7 +292,8 @@ system Boonagev
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	object
 		sprite star/k5
 		period 10
@@ -432,7 +435,8 @@ system Crayiss
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	fleet "Sheragi Fleet Big" 1000
 	object
 		sprite star/k0
@@ -547,7 +551,8 @@ system Douhvy
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	object
 		sprite star/m8
 		period 10
@@ -601,7 +606,8 @@ system Drehlnik
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	object
 		sprite star/g5
 		distance 33.5238
@@ -855,7 +861,8 @@ system Gethrisja
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	object
 		sprite star/g5
 		period 10
@@ -973,7 +980,8 @@ system Gomla
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	object
 		sprite star/g5
 		period 10
@@ -1123,7 +1131,8 @@ system I'gra
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	fleet "Sheragi Fleet Big" 1000
 	object
 		sprite star/g0
@@ -1454,7 +1463,8 @@ system Lyrik
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	fleet "Sheragi Fleet Big" 1000
 	object
 		sprite star/f0
@@ -1692,7 +1702,8 @@ system Nelithral
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	object
 		sprite star/g0
 		distance 22.0263
@@ -1797,7 +1808,8 @@ system Pronlel
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Dishonoured Fleet" 1000
+	fleet "Dishonoured Big" 1000
+	fleet "Dishonoured Small" 1000
 	object
 		sprite star/g5
 		distance 43.7788

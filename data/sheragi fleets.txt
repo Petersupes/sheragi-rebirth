@@ -75,7 +75,31 @@ fleet "Sheragi Fleet Civilian"
 	variant 6
 		"Bronze Edge" 2
 
-fleet "Dishonoured Fleet"
+fleet "Dishonoured Big"
+	government "Sheragi (Dishonoured)"
+	names "sheragi"
+	personality
+		disables
+		plunders
+		confusion 20
+	variant 2
+		"Gold Shield" 2
+		"Black Diamond" 16
+	variant 5
+		"Gold Shield"
+		"Black Diamond" 8
+	variant
+		"Platinum Spear"
+		"Gold Shield" 2
+		"Black Diamond" 16
+	variant 2
+		"Platinum Spear"
+		"Gold Shield"
+		"Black Diamond" 8
+	variant 3
+		"Platinum Spear"
+
+fleet "Dishonoured Small"
 	government "Sheragi (Dishonoured)"
 	names "sheragi"
 	personality
