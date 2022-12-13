@@ -58,8 +58,8 @@ outfit "Small Fusion Drive"
 		"Sheragi"
 	cost 20000000
 	thumbnail "outfit/unknown"
-	"mass" 264
-	"outfit space" -264
+	"mass" 352
+	"outfit space" -352
 	"engine capacity" -156
 	"jump speed" 0.2
 	"hyperdrive" 1
