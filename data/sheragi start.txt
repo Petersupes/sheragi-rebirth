@@ -1,7 +1,7 @@
 mission "First Contact: Sheragi"
 	landing
 	source
-		government "Sheragi"
+		government "Sheragi (Rebirth)"
 		not attributes "uninhabited"
 	on offer
 		conversation
@@ -55,11 +55,11 @@ mission "Discovered Sheragi Space"
 	landing
 	invisible
 	source
-		government "Sheragi" "Sheragi (Dishonoured)"
+		government "Sheragi(Rebirth)"
 	on offer
 		event "label sheragi space"
 		fail
 
 event "label sheragi space"
 	galaxy "label eden"
-		sprite "label/hai"
+		sprite "label/eden"
