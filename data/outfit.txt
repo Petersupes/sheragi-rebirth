@@ -109,7 +109,7 @@ outfit "Light Particle Shielding"
 	"depleted shield delay" 600
 	"energy capacity" 750
 	"ion resistance" .13
-	"ion resistance energy" -2
+	"ion resistance energy" -6
 	"energy consumption" .4
 	description "This shielding system was initialy developed to combat the ion storms splitting the middle of the new Sheragi territory. However upon discovering its effectiveness at reducing ion damage from Particle Waveform Cannons the Sheragi refined and improved the design allowing the charged particles to release absorbed energy into the ship's power systems, unleashing a new wave of warfare. One should be careful not to let the shield matrix of a ship using this system fully deplete as the resulting discharge will short circuit the capacitor, shutting down the system and resulting in a lengthy reboot."
 
@@ -124,7 +124,7 @@ outfit "Dense Particle Shielding"
 	"depleted shield delay" 720
 	"energy capacity" 750
 	"ion resistance" .3
-	"ion resistance energy" -6
+	"ion resistance energy" -15
 	"energy consumption" .9
 	description "This Sheragi shield device was developed to further the shield matrices and ion resistance in the new age of warship technology spurred on by its weaker predecessor. The energy boost provided by this shield can be used to gain an edge in combat where ion attacks are involved. One should be careful not to let the shield matrix of a ship using this system fully deplete as the resulting discharge will short circuit the capacitor, shutting down the system and resulting in a lengthy reboot."
 
