@@ -62,4 +62,4 @@ mission "Discovered Sheragi Space"
 
 event "label sheragi space"
 	galaxy "label eden"
-		sprite "label/hai"
+		sprite "label/eden"
