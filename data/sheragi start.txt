@@ -55,7 +55,7 @@ mission "Discovered Sheragi Space"
 	landing
 	invisible
 	source
-		government "Sheragi(Rebirth)"
+		government "Sheragi (Rebirth)"
 	on offer
 		event "label sheragi space"
 		fail
