@@ -1,5 +1,6 @@
 # Sheragi Rebirth
 Plugin for Endless Sky.
+
 Features:
 - new ships
 - new systems
