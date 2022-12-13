@@ -1,6 +1,6 @@
 start "Sheragi Test Start"
 	name "Sheragi Test Start"
-	description `Sheragi Test Start`
+	description `Sheragi start for testing, this is not needed to play with the plugin content.`
 	thumbnail "scene/emeraldswordderelict"
 	date 16 11 3013
 	system "Adun"
@@ -16,4 +16,4 @@ start "Sheragi Test Start"
 conversation "test intro"
 	`Name:`
 	name
-	`Sheragi Time Bitches`
+	`Sheragi Time`
