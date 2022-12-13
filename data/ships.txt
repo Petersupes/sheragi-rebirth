@@ -395,8 +395,8 @@ ship "Bronze Edge"
 		"hull" 9500
 		"required crew" 7
 		"bunks" 10
-		"mass" 140
-		"drag" 3
+		"mass" 295
+		"drag" 4.5
 		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 0
