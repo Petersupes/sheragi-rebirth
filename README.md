@@ -11,3 +11,4 @@ Future Content:
 - more ships
 - missions
 - finished outfit images
+- branches involving Emerald Sword and Ssil Vida questlines
