@@ -1,3 +1,6 @@
+galaxy "label eden"
+	pos -1150 -150
+
 system Adun
 	pos -1203.53 -134.175
 	government "Sheragi (Rebirth)"
