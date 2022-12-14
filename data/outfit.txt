@@ -166,13 +166,13 @@ outfit "Sheragi Solar Intake"
 # Special
 
 outfit "Sheragi License"
-	category "Special"
-	thumbnail "outfit/unknown"
+	category "Licenses"
+	thumbnail "outfit/sheragi license"
 	description "A license that will allow you to purchase most of the Sheragi's technology and ships"
 
 outfit "Sheragi Capital License"
-	category "Special"
-	thumbnail "outfit/unknown"
+	category "Licenses"
+	thumbnail "outfit/sheragi capital"
 	description "A license that will allow you to purchase the Sheragi's most powerful technology and ships"
 
 # Weapons

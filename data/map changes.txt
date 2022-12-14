@@ -1,5 +1,5 @@
 galaxy "label eden"
-	pos -1200 -150
+	pos -1225 -150
 
 system Adun
 	pos -1203.53 -134.175

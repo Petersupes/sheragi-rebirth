@@ -63,3 +63,37 @@ mission "Discovered Sheragi Space"
 event "label sheragi space"
 	galaxy "label eden"
 		sprite "label/eden"
+
+mission "Sheragi intro 1"
+	source
+		government "Sheragi (Rebirth)"
+		not attributes "uninhabited"
+	to offer
+		random < 30
+		has "First Contact: Sheragi: done"
+	on offer
+		set "license: Sheragi"
+		log "Received a Sheragi license allowing you to purchase some of their ships."
+		conversation
+			`As you're wandering through the spaceport looking for a nice place to relax a Sheragi in some kind of tactical uniform blocks your path. "Captain <last>, if you wouldn't mind, I'll need you to come with me," he says.`
+			choice
+				`	(Run for it.)`
+					goto run
+				`	"Sure, I can come with you."`
+			`	"Good choice," he says, "this way please." You follow him to a very nice looking security station where you are brought to an interrogation room and sat down.`
+				goto questioning
+			label run
+			`	You turn tail and run back the way you came, putting as much distance between you and the foreboding Sheragi. You turn around and see no sign of him pursuing you, what a stroke of luck! The stupid grin you're giving yourself is quickly wiped off your face as the Sheragi plummets out of the sky, landing like a brick wall in front of your face.`
+			`	Everything goes black.`
+			`	You awaken to find you've been sat down at a table in some kind of interrogation room, the same Sheragi from before stands in front of you.`
+			choice
+				`	"Where am I?`
+				`	"Let me out of here!"`
+			`	"Quiet," he says calmy, "I'm required to ask you a few questions."`
+			label questioning
+			`	"	I am part of the Sheragi military intelligence, it is my job to keep track of abnormalities that are of potential interest to the government," he says, "You are one such abnormality."`
+			choice
+				`	"No I'm not... promise."`
+				`	"What do you mean?"`
+			`	"You are not from Eden," he says. "You are the first visitor from outside of Sheragi space since the first group of humans came here 500 years ago. From what I understand you have done so using something called a quantum keystone. Additionally, you did not know about the Sheragi before coming here, so I can only assume that our kin are lost to time."`
+				decline
