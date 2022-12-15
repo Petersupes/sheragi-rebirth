@@ -11,6 +11,9 @@ outfit "Large EM Battery"
 outfit "Small Hybrid Cooling"
 	cost 180000
 
+outfit "Electronic Warfare System"
+	"tactical scan power" 100
+
 outfit "Fusion Drive"
 	licenses
 		"Sheragi Capital"

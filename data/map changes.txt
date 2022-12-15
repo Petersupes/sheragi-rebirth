@@ -2358,7 +2358,8 @@ planet Arytissi
 	description `This planet is home to millions of Sheragi, many of which live here because Arytissi is the headquarters of the Sheragi military. The world is perfectly positioned to prevent any unwanted ships from entering Eden.`
 	spaceport `The spaceport here is the largest you've ever seen, built to hold the massive capital ships of the Sheragi military.`
 	government "Sheragi (Rebirth)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
 	shipyard "Sheragi Basic"
 	shipyard "Sheragi Advanced"
 	bribe 0.03
@@ -2373,7 +2374,8 @@ planet Bekim
 	description `Sheragi test planet`
 	spaceport `Sheragi test spaceport`
 	government "Sheragi (Dishonoured)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
 	shipyard "Sheragi Basic"
 	shipyard "Sheragi Advanced"
 	bribe 0.03
@@ -2400,7 +2402,10 @@ planet Daarnik
 	description `This massive battlestation was created to be the last line of defense for the Sheragi people, the location of what will be a great final stand against the last adversary in the war filled history of the Sheragi. The ruling government makes its residence within the fortified hull of Daarnik, and from here their decisions influence the entirety of Eden, Sheragi and Human alike.`
 	spaceport `The spaceport here is the most uptight military situation you've ever seen, clearly noone who the Sheragi don't want to be here will step foot in this station.`
 	government "Sheragi (Rebirth)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
+	shipyard "Sheragi Basic"
+	shipyard "Sheragi Advanced"
 	bribe 0.03
 	security 0.5
 	tribute 1200
@@ -2413,9 +2418,9 @@ planet Degis
 	description `Sheragi test planet`
 	spaceport `Sheragi test spaceport`
 	government "Sheragi (Dishonoured)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
 	shipyard "Sheragi Basic"
-	shipyard "Sheragi Advanced"
 	bribe 0.03
 	security 0.5
 	tribute 1200
@@ -2428,9 +2433,8 @@ planet Duil
 	description `Sheragi test planet`
 	spaceport `Sheragi test spaceport`
 	government "Sheragi (Dishonoured)"
-	outfitter "Sheragi Test Outfitter"
-	shipyard "Sheragi Basic"
-	shipyard "Sheragi Advanced"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
 	bribe 0.03
 	security 0.5
 	tribute 1200
@@ -2443,7 +2447,9 @@ planet Fekiw
 	description `Fekiw is the primary economic centre of Sheragi space, all trading and business runs through the cloud cities here in one way or another. The vast wealth that flows through this planet has led to it being the home of many of the wealthiest citizens. Rumour has it that near the top of this economic food chain of rich business owners is a human.`
 	spaceport `Due to the sheer amount of money on Fekiw the floating spaceport is so fancy that you feel slightly bad for scuffing your boots along the gleaming white floor.`
 	government "Sheragi (Rebirth)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
+	shipyard "Sheragi Basic"
 	bribe 0.03
 	security 0.5
 	tribute 1200
@@ -2492,7 +2498,8 @@ planet Inhelk
 	description `Inhelk is much safer than the planet it orbits but with equal amounts of work being available, massive factories make use of the materials shipped from the planet below to create all manner of goods.`
 	spaceport `The spaceport borders a massive shipyard producing the equally sized Sheragi ships. Other than stare at the ships get made, there isn't much else to do.`
 	government "Sheragi (Rebirth)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
 	shipyard "Sheragi Basic"
 	shipyard "Sheragi Advanced"
 	bribe 0.03
@@ -2507,7 +2514,8 @@ planet Lesot
 	description `Lesot is one giant testing area, the majority of all research and development in Sheragi space is carried out here. The marks of this extensive technology can be seen all over the planet, as you come in low you see a mountain range that has had its top taken clean off, leaving you only to wonder what kind of weapon could have done such a thing.`
 	spaceport `The spaceport is located just outside of a university, students and scientists alike streaming in and out of its entry.`
 	government "Sheragi (Rebirth)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
 	bribe 0.03
 	security 0.5
 	tribute 1200
@@ -2532,7 +2540,8 @@ planet Reskafar
 	description `Sheragi test planet`
 	spaceport `Sheragi test spaceport`
 	government "Sheragi (Dishonoured)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
 	shipyard "Sheragi Basic"
 	shipyard "Sheragi Advanced"
 	bribe 0.03
@@ -2550,7 +2559,6 @@ planet Shio
 	government "Sheragi (Rebirth)"
 	outfitter "Shio Industries"
 	outfitter "Sheragi Basic"
-	outfitter "Sheragi Test Outfitter"
 	shipyard "Shio Shipyards"
 	shipyard "Sheragi Basic"
 	bribe 0.03
@@ -2566,9 +2574,8 @@ planet Skatuch
 	description `On Skatuch cities sprawl across the globe, ever increasing to accomodate for the growing Sheragi population. This planet is the most densely populated in the entirety of Eden, even more so than the capital system.`
 	spaceport `The spaceport here is fairly standard for the sheragi, large with hexagonal landing pads, transports hurrying about ferrying people to and fro the surrounding city.`
 	government "Sheragi (Rebirth)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
 	shipyard "Sheragi Basic"
-	shipyard "Sheragi Advanced"
 	bribe 0.03
 	security 0.5
 	tribute 1200
@@ -2581,8 +2588,10 @@ planet Thaczil
 	description `Thaczil is the capital of Sheragi space, it is the heart of their civilisation and home to many people. Despite being the capital the Sheragi government does not actually govern from the planet but the from the massive station Daarnik orbiting above. It was the first world colonised when the Sheragi were sent to Eden millenia ago.`
 	spaceport `The spaceport here is a collection of hexagonal landing pads neatly arranged within the city.`
 	government "Sheragi (Rebirth)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
 	shipyard "Sheragi Basic"
+	shipyard "Sheragi Advanced"
 	bribe 0.03
 	security 0.5
 	tribute 1200
@@ -2592,10 +2601,11 @@ planet Thaczil
 planet Vehallar
 	attributes factory station eden
 	landscape land/mars3
-	description `Vehallar is a massive shipyard station, created to provide for the Sheragi military. The station is always in need of supplies to continue its masse fabrication of warships.`
+	description `Vehallar is a massive shipyard station, created to provide for the Sheragi military. The station is always in need of supplies to continue its mass fabrication of warships.`
 	spaceport `The spaceport is a small hub where the station workers live and provides a few necessities for them.`
 	government "Sheragi (Rebirth)"
-	outfitter "Sheragi Test Outfitter"
+	outfitter "Sheragi Basic"
+	outfitter "Sheragi Advanced"
 	shipyard "Sheragi Basic"
 	shipyard "Sheragi Advanced"
 	bribe 0.03
@@ -2610,9 +2620,7 @@ planet Vilzriquathtor
 	description `Sheragi test planet`
 	spaceport `Sheragi test spaceport`
 	government "Sheragi (Dishonoured)"
-	outfitter "Sheragi Test Outfitter"
-	shipyard "Sheragi Basic"
-	shipyard "Sheragi Advanced"
+	outfitter "Sheragi Basic"
 	bribe 0.03
 	security 0.5
 	tribute 1200
