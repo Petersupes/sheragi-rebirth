@@ -71,7 +71,7 @@ mission "Stuck in Eden"
 	source
 		attributes "eden"
 	waypoint "Ithquent"
-	destination
+	destination "Eden Gateway"
 	on offer
 		require "Quantum Keystone" 0
 		require "Quantum Key Stone" 0
