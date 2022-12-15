@@ -12,17 +12,22 @@ system Adun
 	asteroids "medium rock" 1 2.7
 	asteroids "large rock" 1 2.052
 	asteroids "large metal" 1 1.566
-	trade Clothing 290
+	minables aluminum 26 8
+	minables iron 8 5
+	minables tungsten 10 6
+	trade Clothing 110
 	trade Electronics 740
 	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
+	trade Food 200
+	trade "Heavy Metals" 900
+	trade Industrial 600
+	trade "Luxury Goods" 1300
+	trade Medical 490
 	trade Metal 390
-	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1200
+	trade Plastic 270
+	fleet "Sheragi Fleet Big" 4000
+	fleet "Sheragi Fleet Small" 3000
+	fleet "Sheragi Fleet Civilian" 1200
 	fleet "Eden Merchants Small" 300
 	fleet "Eden Merchants Large" 600
 	object
@@ -63,6 +68,10 @@ system Aegra
 	asteroids "small metal" 2 10.6596
 	asteroids "medium metal" 1 10.8864
 	asteroids "large metal" 3 11.1132
+	minables silicon 19 8
+	minables titanium 22 6.5
+	minables tungsten 11 9
+	minables uranium 5 4
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -118,6 +127,8 @@ system Amuul
 	habitable 8640
 	link Myink
 	asteroids "large metal" 1 9.1988
+	minables uranium 12 9
+	minables iron 5 6
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -168,6 +179,8 @@ system Andowinor
 	link Douhvy
 	link Pronlel
 	asteroids "large metal" 1 8.82
+	minables lead 3 12
+	minables neodymium 29 15
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -238,17 +251,24 @@ system Bevnol
 	asteroids "large rock" 7 7.308
 	asteroids "medium metal" 4 10.416
 	asteroids "large metal" 1 11.088
+	minables copper 20 3.5
+	minables gold 24 5
+	minables silver 10 9
 	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
+	trade Electronics 790
+	trade Equipment 670
+	trade Food 110
 	trade "Heavy Metals" 960
 	trade Industrial 720
 	trade "Luxury Goods" 1220
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Sheragi Fleet Big" 3000
+	fleet "Sheragi Fleet Small" 2000
+	fleet "Sheragi Fleet Civilian" 800
+	fleet "Eden Merchants Small" 1200
+	fleet "Eden Merchants Large" 1800
 	object
 		sprite star/g5
 		period 10
@@ -285,16 +305,20 @@ system Boonagev
 	asteroids "small metal" 9 2.299
 	asteroids "medium metal" 15 5.434
 	asteroids "large metal" 9 2.8424
-	trade Clothing 290
+	minables iron 34 2.2
+	minables lead 20 4
+	minables tungsten 12 9
+	minables uranium 2 5
+	trade Clothing 430
 	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
+	trade Equipment 650
+	trade Food 490
+	trade "Heavy Metals" 760
 	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	trade "Luxury Goods" 950
+	trade Medical 880
+	trade Metal 320
+	trade Plastic 410
 	fleet "Dishonoured Big" 1000
 	fleet "Dishonoured Small" 1000
 	object
@@ -347,6 +371,8 @@ system Cotuir
 	asteroids "small metal" 1 7.7792
 	asteroids "medium metal" 19 2.9172
 	asteroids "large metal" 1 6.5208
+	minables neodymium 20 4
+	minables titanium 4 6.90932
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -357,6 +383,8 @@ system Cotuir
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
+	fleet "Sheragi Fleet Big" 2000
+	fleet "Sheragi Fleet Small" 1500
 	hazard "Eden Storm" 4500
 	object
 		sprite star/a0
@@ -428,6 +456,9 @@ system Crayiss
 	asteroids "small metal" 8 9.744
 	asteroids "medium metal" 7 5.9808
 	asteroids "large metal" 3 4.2336
+	minables aluminum 24 7.2
+	minables copper 15 3.8
+	minables silicon 27 2
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -438,9 +469,10 @@ system Crayiss
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Dishonoured Big" 1000
-	fleet "Dishonoured Small" 1000
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Dishonoured Big" 2000
+	fleet "Dishonoured Small" 1500
+	fleet "Sheragi Fleet Big" 1500
+	fleet "Sheragi Fleet Small" 1000
 	object
 		sprite star/k0
 		distance 47.1378
@@ -486,6 +518,9 @@ system Donoap
 	asteroids "small metal" 7 2.223
 	asteroids "medium metal" 38 1.755
 	asteroids "large metal" 1 2.7105
+	minables iron 9 4
+	minables neodymium 3 2
+	minables platinum 20 12
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -544,6 +579,9 @@ system Douhvy
 	asteroids "medium rock" 69 3.2
 	asteroids "large rock" 19 3.08
 	asteroids "large metal" 2 4.04
+	minables aluminum 13 1.4
+	minables platinum 2 5
+	minables silver 6 7
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -599,13 +637,17 @@ system Drehlnik
 	asteroids "large rock" 24 2.0328
 	asteroids "medium metal" 13 1.8018
 	asteroids "large metal" 9 2.7027
-	trade Clothing 290
-	trade Electronics 740
+	minables gold 34 9
+	minables titanium 5 2
+	minables tungsten 20 7
+	minables uranium 4 3
+	trade Clothing 390
+	trade Electronics 610
 	trade Equipment 530
-	trade Food 350
+	trade Food 420
 	trade "Heavy Metals" 960
 	trade Industrial 720
-	trade "Luxury Goods" 1220
+	trade "Luxury Goods" 1010
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
@@ -659,6 +701,10 @@ system Eavak
 	asteroids "small metal" 5 2.4992
 	asteroids "medium metal" 6 4.0128
 	asteroids "large metal" 27 1.936
+	minables neodymium 10 15.6333
+	minables silicon 5 1
+	minables silver 3 8
+	minables tungsten 38 5
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -670,6 +716,10 @@ system Eavak
 	trade Metal 390
 	trade Plastic 390
 	fleet "Sheragi Fleet Big" 1000
+	fleet "Sheragi Fleet Small" 1000
+	fleet "Sheragi Fleet Civilian" 600
+	fleet "Eden Merchants Small" 1200
+	fleet "Eden Merchants Large" 1800
 	object
 		sprite star/f5
 		period 10
@@ -726,17 +776,23 @@ system Elbakiw
 	asteroids "small metal" 2 4.6475
 	asteroids "medium metal" 57 1.95
 	asteroids "large metal" 26 2.86
+	minables neodymium 10 9
+	minables platinum 3 1
+	minables uranium 12 15
 	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
+	trade Electronics 850
+	trade Equipment 600
+	trade Food 300
 	trade "Heavy Metals" 960
 	trade Industrial 720
 	trade "Luxury Goods" 1220
-	trade Medical 680
+	trade Medical 620
 	trade Metal 390
-	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	trade Plastic 500
+	fleet "Sheragi Fleet Big" 3000
+	fleet "Sheragi Fleet Small" 2000
+	fleet "Sheragi Fleet Civilian" 800
+	fleet "Eden Merchants Small" 2800
 	object
 		sprite star/m4
 		period 10
@@ -796,6 +852,8 @@ system Eligne
 	asteroids "large rock" 63 2.6112
 	asteroids "small metal" 4 2.688
 	asteroids "large metal" 1 1.664
+	minables aluminum 5 1
+	minables iron 2 3
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -803,10 +861,14 @@ system Eligne
 	trade "Heavy Metals" 960
 	trade Industrial 720
 	trade "Luxury Goods" 1220
-	trade Medical 680
+	trade Medical 900
 	trade Metal 390
 	trade Plastic 390
 	fleet "Sheragi Fleet Big" 1000
+	fleet "Sheragi Fleet Small" 1000
+	fleet "Sheragi Fleet Civilian" 1500
+	fleet "Eden Merchants Small" 2500
+	fleet "Eden Merchants Large" 3500
 	object
 		sprite star/g5
 		period 10
@@ -854,6 +916,8 @@ system Gethrisja
 	asteroids "small metal" 9 5.502
 	asteroids "medium metal" 28 4.116
 	asteroids "large metal" 4 3.612
+	minables copper 30 7
+	minables titanium 3 4
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -918,6 +982,8 @@ system Gogetoi
 	asteroids "small metal" 12 4.212
 	asteroids "medium metal" 30 3.8376
 	asteroids "large metal" 5 3.6504
+	minables silicon 3 1
+	minables uranium 1 2
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -973,13 +1039,17 @@ system Gomla
 	asteroids "small metal" 15 3.7908
 	asteroids "medium metal" 9 6.4638
 	asteroids "large metal" 18 3.3048
-	trade Clothing 290
+	minables aluminum 29 3
+	minables copper 9 2
+	minables iron 32 6
+	minables titanium 20 9
+	trade Clothing 330
 	trade Electronics 740
 	trade Equipment 530
-	trade Food 350
+	trade Food 330
 	trade "Heavy Metals" 960
 	trade Industrial 720
-	trade "Luxury Goods" 1220
+	trade "Luxury Goods" 1000
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
@@ -1025,6 +1095,8 @@ system Hawga
 	asteroids "small metal" 26 3.4935
 	asteroids "medium metal" 66 3.315
 	asteroids "large metal" 23 3.0855
+	minables neodymium 20 13
+	minables silver 3 4
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1083,6 +1155,9 @@ system Houpetor
 	habitable 1715
 	link Mojka
 	asteroids "large metal" 1 4.536
+	minables iron 1 6
+	minables neodymium 2 5
+	minables platinum 3 4
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1124,6 +1199,7 @@ system I'gra
 	link Andowinor
 	link Douhvy
 	asteroids "large metal" 1 1.938
+	minables copper 3 3
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1134,9 +1210,10 @@ system I'gra
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Dishonoured Big" 1000
-	fleet "Dishonoured Small" 1000
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Dishonoured Big" 2000
+	fleet "Dishonoured Small" 1500
+	fleet "Sheragi Fleet Big" 1500
+	fleet "Sheragi Fleet Small" 1000
 	object
 		sprite star/g0
 		period 10
@@ -1178,6 +1255,8 @@ system "Ioth Idol"
 	asteroids "small metal" 1 1.5246
 	asteroids "medium metal" 5 1.8942
 	asteroids "large metal" 1 2.9799
+	minables silicon 2 0.5
+	minables silver 20 13
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1227,6 +1306,9 @@ system Ithquent
 	asteroids "small metal" 43 5.568
 	asteroids "medium metal" 3 4.4544
 	asteroids "large metal" 19 10.3704
+	minables lead 9 6
+	minables neodymium 5 7
+	minables yottrite 2 4.5
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1326,17 +1408,25 @@ system Khazayob
 	asteroids "small metal" 12 2.295
 	asteroids "medium metal" 53 6.2883
 	asteroids "large metal" 42 4.9572
+	minables aluminum 9 9
+	minables iron 34 3
+	minables titanium 6 4
+	minables tungsten 12 15
 	trade Clothing 290
-	trade Electronics 740
+	trade Electronics 860
 	trade Equipment 530
 	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
+	trade "Heavy Metals" 1260
+	trade Industrial 900
 	trade "Luxury Goods" 1220
 	trade Medical 680
-	trade Metal 390
+	trade Metal 550
 	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Sheragi Fleet Big" 3000
+	fleet "Sheragi Fleet Small" 2000
+	fleet "Sheragi Fleet Civilian" 500
+	fleet "Eden Merchants Small" 1200
+	fleet "Eden Merchants Large" 1800
 	object
 		sprite star/k5
 		period 10
@@ -1396,6 +1486,8 @@ system Loaw
 	asteroids "large rock" 6 1.7355
 	asteroids "small metal" 3 2.3985
 	asteroids "large metal" 3 1.092
+	minables gold 5 3
+	minables neodymium 2 1
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1456,6 +1548,8 @@ system Lyrik
 	asteroids "large rock" 9 8.4448
 	asteroids "medium metal" 1 4.9504
 	asteroids "large metal" 5 7.644
+	minables iron 3 6
+	minables silver 2 6
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1466,9 +1560,10 @@ system Lyrik
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Dishonoured Big" 1000
-	fleet "Dishonoured Small" 1000
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Dishonoured Big" 3000
+	fleet "Dishonoured Small" 2000
+	fleet "Sheragi Fleet Big" 1500
+	fleet "Sheragi Fleet Small" 1000
 	object
 		sprite star/f0
 		distance 19.2327
@@ -1594,6 +1689,7 @@ system Mojka
 	asteroids "large rock" 7 6.624
 	asteroids "medium metal" 20 10.8
 	asteroids "large metal" 5 6.048
+	minables platinum 2 12
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1657,6 +1753,9 @@ system Myink
 	asteroids "small metal" 2 12.963
 	asteroids "medium metal" 2 4.437
 	asteroids "large metal" 2 12.876
+	minables neodymium 6 13
+	minables silicon 4 5
+	minables titanium 2 4
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1667,6 +1766,8 @@ system Myink
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
+	fleet "Sheragi Fleet Big" 2000
+	fleet "Sheragi Fleet Small" 1500
 	hazard "Eden Storm" 2500
 	object
 		sprite star/f0
@@ -1695,6 +1796,9 @@ system Nelithral
 	asteroids "large rock" 3 4.3218
 	asteroids "medium metal" 44 3.1458
 	asteroids "large metal" 5 2.1168
+	minables aluminum 3 8
+	minables platinum 7 4
+	minables titanium 22 14
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1759,17 +1863,23 @@ system Okraz
 	asteroids "small metal" 13 1.5912
 	asteroids "medium metal" 11 3.315
 	asteroids "large metal" 3 3.2266
+	minables iron 3 6.5
+	minables silicon 11 0.8
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
 	trade Food 350
 	trade "Heavy Metals" 960
 	trade Industrial 720
-	trade "Luxury Goods" 1220
+	trade "Luxury Goods" 1450
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Sheragi Fleet Big" 4000
+	fleet "Sheragi Fleet Small" 3000
+	fleet "Sheragi Fleet Civilian" 600
+	fleet "Eden Merchants Small" 2000
+	fleet "Eden Merchants Large" 3000
 	object
 		sprite star/g0
 		period 10
@@ -1801,14 +1911,16 @@ system Pronlel
 	asteroids "medium rock" 8 2.2176
 	asteroids "large rock" 2 2.079
 	asteroids "large metal" 1 2.7126
-	trade Clothing 290
+	minables neodymium 12 3
+	minables uranium 5 2
+	trade Clothing 390
 	trade Electronics 740
 	trade Equipment 530
-	trade Food 350
+	trade Food 390
 	trade "Heavy Metals" 960
 	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
+	trade "Luxury Goods" 960
+	trade Medical 810
 	trade Metal 390
 	trade Plastic 390
 	fleet "Dishonoured Big" 1000
@@ -1872,17 +1984,32 @@ system Sini
 	asteroids "small metal" 25 3.8295
 	asteroids "medium metal" 21 3.2775
 	asteroids "large metal" 25 1.9665
+	minables aluminum 2 5
+	minables copper 7 2
+	minables gold 9 4.5
+	minables iron 8 3
+	minables lead 14 4
+	minables neodymium 9 4
+	minables platinum 3 5
+	minables silicon 10 2
+	minables silver 3 3
+	minables titanium 3 4
+	minables tungsten 2 5
 	trade Clothing 290
 	trade Electronics 740
-	trade Equipment 530
+	trade Equipment 600
 	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
+	trade "Heavy Metals" 610
+	trade Industrial 840
+	trade "Luxury Goods" 1180
+	trade Medical 800
+	trade Metal 190
 	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Sheragi Fleet Big" 3500
+	fleet "Sheragi Fleet Small" 2500
+	fleet "Sheragi Fleet Civilian" 400
+	fleet "Eden Merchants Small" 600
+	fleet "Eden Merchants Large" 900
 	object
 		sprite star/g5
 		period 10
@@ -1966,20 +2093,22 @@ system Ssifisv
 	link Adun
 	asteroids "small rock" 3 0.8778
 	asteroids "medium rock" 10 1.8172
-	asteroids "large rock" 2 1.7864
-	asteroids "medium metal" 20 0.7854
-	asteroids "large metal" 2 0.8162
+	minables silicon 58 1.5
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
 	trade Food 350
 	trade "Heavy Metals" 960
 	trade Industrial 720
-	trade "Luxury Goods" 1220
+	trade "Luxury Goods" 1420
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Sheragi Fleet Big" 3500
+	fleet "Sheragi Fleet Small" 2500
+	fleet "Sheragi Fleet Civilian" 700
+	fleet "Eden Merchants Small" 600
+	fleet "Eden Merchants Large" 900
 	object
 		sprite star/g0
 		distance 26.2857
@@ -2022,17 +2151,23 @@ system Sulta
 	asteroids "large rock" 15 2.08
 	asteroids "medium metal" 37 2.912
 	asteroids "large metal" 2 1.612
+	minables iron 12 2
+	minables silver 6 3
+	minables uranium 3 4
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
 	trade Food 350
 	trade "Heavy Metals" 960
 	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
+	trade "Luxury Goods" 1320
+	trade Medical 880
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Sheragi Fleet Big" 9000
+	fleet "Sheragi Fleet Small" 3500
+	fleet "Sheragi Fleet Civilian" 1000
+	fleet "Eden Merchants Small" 4000
 	object
 		sprite star/g0
 		distance 26.0204
@@ -2082,17 +2217,24 @@ system Tobor
 	asteroids "small metal" 193 2.112
 	asteroids "medium metal" 15 2.1888
 	asteroids "large metal" 70 5.4912
-	trade Clothing 290
-	trade Electronics 740
+	minables copper 12 5
+	minables silicon 10 3
+	minables titanium 8 6
+	trade Clothing 140
+	trade Electronics 650
 	trade Equipment 530
-	trade Food 350
+	trade Food 200
 	trade "Heavy Metals" 960
 	trade Industrial 720
 	trade "Luxury Goods" 1220
 	trade Medical 680
 	trade Metal 390
-	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	trade Plastic 300
+	fleet "Sheragi Fleet Big" 3000
+	fleet "Sheragi Fleet Small" 2000
+	fleet "Sheragi Fleet Civilian" 800
+	fleet "Eden Merchants Small" 600
+	fleet "Eden Merchants Large" 900
 	object
 		sprite star/g5
 		period 10
@@ -2146,6 +2288,9 @@ system Utih
 	asteroids "small metal" 1 1.44
 	asteroids "medium metal" 28 2.952
 	asteroids "large metal" 14 3.312
+	minables aluminum 20 2
+	minables gold 2 3
+	minables uranium 15 7
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -2156,7 +2301,8 @@ system Utih
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Sheragi Fleet Big" 1500
+	fleet "Sheragi Fleet Small" 1000
 	hazard "Eden Storm" 6000
 	object
 		sprite star/m0
@@ -2216,17 +2362,24 @@ system Xiekivi
 	asteroids "large rock" 4 7.6475
 	asteroids "medium metal" 2 7.82
 	asteroids "large metal" 3 5.0025
-	trade Clothing 290
+	minables lead 22 4
+	minables platinum 9 7
+	minables tungsten 12 5
+	trade Clothing 240
 	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
+	trade Equipment 500
+	trade Food 420
 	trade "Heavy Metals" 960
 	trade Industrial 720
 	trade "Luxury Goods" 1220
 	trade Medical 680
 	trade Metal 390
-	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	trade Plastic 500
+	fleet "Sheragi Fleet Big" 2500
+	fleet "Sheragi Fleet Small" 1500
+	fleet "Sheragi Fleet Civilian" 600
+	fleet "Eden Merchants Small" 600
+	fleet "Eden Merchants Large" 900
 	object
 		sprite star/g5
 		period 10
@@ -2283,17 +2436,24 @@ system Xiilek
 	asteroids "small metal" 2 7.02
 	asteroids "medium metal" 4 3.3696
 	asteroids "large metal" 1 2.6676
+	minables gold 1 14
+	minables silicon 40 1
+	minables silver 19 8
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
 	trade Food 350
 	trade "Heavy Metals" 960
 	trade Industrial 720
-	trade "Luxury Goods" 1220
+	trade "Luxury Goods" 1500
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Sheragi Fleet Big" 1000
+	fleet "Sheragi Fleet Big" 4000
+	fleet "Sheragi Fleet Small" 2000
+	fleet "Sheragi Fleet Civilian" 500
+	fleet "Eden Merchants Small" 1200
+	fleet "Eden Merchants Large" 2000
 	object
 		sprite star/k0
 		distance 20.4124

@@ -101,6 +101,7 @@ mission "Sheragi intro 1"
 		has "First Contact: Sheragi: done"
 	on offer
 		set "license: Sheragi"
+		set "license: Sheragi Capital"
 		log "Received a Sheragi license allowing you to purchase some of their ships."
 		conversation
 			`As you're wandering through the spaceport looking for a nice place to relax a Sheragi in some kind of tactical uniform blocks your path. "Captain <last>, if you wouldn't mind, I'll need you to come with me," he says.`
@@ -123,5 +124,14 @@ mission "Sheragi intro 1"
 			choice
 				`	"No I'm not... promise."`
 				`	"What do you mean?"`
-			`	"You are not from Eden," he says. "You are the first visitor from outside of Sheragi space since the first group of humans came here 500 years ago. From what I understand you have done so using something called a quantum keystone. Additionally, you did not know about the Sheragi before coming here, so I can only assume that our kin are lost to time."`
+			`	"You are not from Eden," he says. "You are the first visitor from outside of Sheragi space since the first group of humans came here 500 years ago. From what I understand you have done so using something called a quantum keystone. Additionally, you did not know about the Sheragi before coming here, so I can only assume that our kin are lost to time. I require that when you leave Sheragi space you do not mention it to anyone."`
+			choice
+				`	"I understand."`
+					goto understand
+				`	"Why not?"`
+			`	"It may have unforeseen effects on the Sheragi if others start to encroach on our territory."
+			choice
+				`	"I understand."`
+			label understand
+			`	"Good," he replies. Afterwards he escorts you out of the security station.
 				decline
