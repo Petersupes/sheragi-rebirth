@@ -64,6 +64,27 @@ event "label sheragi space"
 	galaxy "label eden"
 		sprite "label/eden"
 
+mission "Stuck in Eden"
+	landing
+	repeat
+	description "Follow the mysterious voice to <destination>."
+	source
+		attributes "eden"
+	destination "Ithquent"
+	on offer
+		require "Quantum Keystone" 0
+		require "Quantum Key Stone" 0
+		require "Quantum Energy Field" 0
+		require "Jump Drive" 0
+		outfit "Quantum Energy Field" 1
+		conversation
+			`As you land on <origin> you get a nagging feeling that something is wrong. To put your mind at ease you decide to check your inventory manifest, at which point you realise you're precious Quantum Keystone, your only way home, is gone.`
+			`	"You are not from this place," a voice says, seemingly from no where, "come to <destination>" And just as suddenly as the voice appeared it was gone, leaving you with only an unconscious thought of where you must go.`
+	on destination
+		conversation
+			`As you jump into the system the voice enters your mind once more. "I will place a temporary field of energy around your vessel, with it you may return to where you came from."`
+			`	A shimmer of light briefly appears around your ship and the voice fades.`
+
 mission "Sheragi intro 1"
 	source
 		government "Sheragi (Rebirth)"

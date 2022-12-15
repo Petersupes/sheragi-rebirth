@@ -175,6 +175,12 @@ outfit "Sheragi Capital License"
 	thumbnail "outfit/sheragi capital"
 	description "A license that will allow you to purchase the Sheragi's most powerful technology and ships"
 
+outfit "Quantum Energy Field"
+	category "Special"
+	thumbnail "outfit/unknown"
+	"quantum keystone" 1
+	description "This field of quantum energy was placed around your ship by an Archon to allow you to travel through unstable wormholes. It is best you do so quickly as there is no way of knowing how long the field will last.
+
 # Weapons
 
 outfit "Shadow's Blade"
