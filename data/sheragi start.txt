@@ -90,7 +90,7 @@ mission "Stuck in Eden"
 		outfit "Quantum Energy Field" -1
 		conversation
 			`Once you pass through the wormhole the energy field around your ship disappears in another flash of light."`
-				fail
+		fail
 
 mission "Sheragi intro 1"
 	source
