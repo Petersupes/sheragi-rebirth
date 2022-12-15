@@ -71,6 +71,7 @@ mission "Stuck in Eden"
 	source
 		attributes "eden"
 	waypoint "Ithquent"
+	destination "Eden Gateway"
 	on offer
 		require "Quantum Keystone" 0
 		require "Quantum Key Stone" 0
@@ -85,6 +86,10 @@ mission "Stuck in Eden"
 		conversation
 			`As you jump into the system the voice enters your mind once more. "I will place a temporary field of energy around your vessel, with it you may return to where you came from."`
 			`	A shimmer of light briefly appears around your ship and the voice fades.`
+	on complete
+		outfit "Quantum Energy Field" -1
+		conversation
+			`Once you pass through the wormhole the energy field around your ship disappears in another flash of light."`
 
 mission "Sheragi intro 1"
 	source
