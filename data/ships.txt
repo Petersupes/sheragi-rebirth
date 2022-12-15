@@ -451,7 +451,7 @@ ship "Bronze Edge"
 	explode "medium explosion" 28
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Sheragi, despite being large creatures have managed to create a warship of relativley small size, having space for its passenger while still remaining, somehow, functional."
+	description "The Sheragi, despite being large creatures have managed to create a warship of relativley small size, having space for its passengers while still remaining, somehow, functional."
 
 ship "Ruby Hammer"
 	sprite ship/rubyhammer
