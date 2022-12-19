@@ -555,3 +555,92 @@ ship "Ruby Hammer"
 	explode "huge explosion" 28
 	"final explode" "final explosion large" 2
 	description "This Sheragi freighter outclasses any other freighter merely through its size. The Ruby Hammer was designed to cross the empty and dangerous space full of ion storms seperating Eden in two. It's unique hull shape helps provide some ion resistance."
+
+ship "White Brand"
+	sprite ship/whitebrand
+	thumbnail "thumbnail/whitebrand"
+	attributes
+		category "Medium Warship"
+		licenses
+			"Sheragi Capital"
+		"cost" 30000000
+		"shields" 20000
+		"hull" 42000
+		"required crew" 82
+		"bunks" 286
+		"mass" 1520
+		"drag" 20
+		"heat dissipation" 0.45
+		"fuel capacity" 800
+		"cargo space" 60
+		"outfit space" 2300
+		"weapon capacity" 510
+		"engine capacity" 230
+		weapon
+			"blast radius" 420
+			"shield damage" 7664
+			"hull damage" 3832
+			"hit force" 11495
+	outfits
+		"Particle Waveform Turret" 8
+		"Sheragi Anti-Missile" 2
+		"Kinetic Spear Launcher" 2
+		"Kinetic Spear Rack"
+		"Kinetic Spear" 18
+		"Dense Particle Shielding"
+		"Large EM Battery"
+		"Large Hybrid Cooling"
+		"Electronic Warfare System" 2
+		"Sheragi Solar Intake" 2
+		
+		"Fusion Drive"
+	engine -43 159
+		zoom 1
+		over
+	engine 43 159
+		zoom 1
+		over
+	engine -139 128
+		zoom 0.65
+		angle 28
+		over
+	engine 139 128
+		zoom 0.65
+		angle 298
+		over
+	"reverse engine" -84 -7
+		zoom 0.6
+		angle 335
+		over
+	"reverse engine" 84 -7
+		zoom 0.6
+		angle 25
+		over
+	"steering engine" -139 128
+		zoom 1
+		angle 28
+		over
+		left
+	"steering engine" 139 128
+		zoom 1
+		angle 298
+		over
+		right
+	turret 0 -95 "Particle Waveform Turret"
+	turret 0 -26 "Sheragi Anti-Missile"
+	turret -47 -2 "Particle Waveform Turret"
+	turret 47 -2 "Particle Waveform Turret"
+	turret -67 53 "Particle Waveform Turret"
+	turret 67 53 "Particle Waveform Turret"
+	gun -56 -155 "Particle Waveform Cannon"
+	gun 56 -155 "Particle Waveform Cannon"
+	explode "tiny explosion" 60
+	explode "small explosion" 26
+	explode "medium explosion" 47
+	explode "large explosion" 39
+	explode "huge explosion" 42
+	explode "nuke explosion" 2
+	"final explode" "nuke explosion" 2
+	"final explode" "nuke residue fast" 50
+	description "A powerful Sheragi warship designed to break through enemy lines. The few flaws in its design are made up for by its immense size, making it one of the most powerful warships you've ever seen."
+	description "With the collaboration between Human and Sheragi engineering this ship is the the most efficient warship in the Sheragi arsenal."
