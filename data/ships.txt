@@ -624,6 +624,16 @@ ship "White Brand"
 		angle 332
 		over
 		left
+	"steering engine" -84 -7
+		zoom 0.6
+		angle 155
+		over
+		left
+	"steering engine" 84 -7
+		zoom 0.6
+		angle 205
+		over
+		right
 	turret 0 -95 "Particle Waveform Turret"
 	turret 0 -26 "Sheragi Anti-Missile"
 	turret -47 -2 "Particle Waveform Turret"
