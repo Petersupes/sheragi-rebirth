@@ -5,7 +5,8 @@ mission "Sheragi Bounty Hunting (Tiny)"
 	job
 	to offer
 		"combat rating" > 80
-		random < 20
+		"combat rating" < 420
+		random < 75
 	source
 		government "Sheragi (Rebirth)"
 		attributes "military"
@@ -13,8 +14,9 @@ mission "Sheragi Bounty Hunting (Tiny)"
 		government "Sheragi (Bounty)"
 		personality heroic staying nemesis target
 		system
-			attributes "eden"
-			government "Uninhabited"
+			system
+				attributes "eden"
+				government "Uninhabited"
 			distance 2 6
 		fleet
 			names "sheragi"
@@ -34,7 +36,8 @@ mission "Sheragi Bounty Hunting (Small)"
 	job
 	to offer
 		"combat rating" > 400
-		random < 20
+		"combat rating" < 690
+		random < 75
 	source
 		government "Sheragi (Rebirth)"
 		attributes "military"
@@ -42,8 +45,9 @@ mission "Sheragi Bounty Hunting (Small)"
 		government "Sheragi (Bounty)"
 		personality heroic staying nemesis target
 		system
-			attributes "eden"
-			government "Uninhabited"
+			system
+				attributes "eden"
+				government "Uninhabited"
 			distance 2 6
 		fleet
 			names "sheragi"
@@ -69,7 +73,7 @@ mission "Sheragi Bounty Hunting (Medium)"
 	job
 	to offer
 		"combat rating" > 450
-		random < 20
+		random < 75
 	source
 		government "Sheragi (Rebirth)"
 		attributes "military"
@@ -100,7 +104,7 @@ mission "Sheragi Bounty Hunting (Large)"
 	job
 	to offer
 		"combat rating" > 800
-		random < 20
+		random < 75
 	source
 		government "Sheragi (Rebirth)"
 		attributes "military"

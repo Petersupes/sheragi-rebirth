@@ -685,7 +685,7 @@ mission "Eden Super Bulk Delivery [0]"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 300 2 .02
 	to offer
-		random < 50
+		random < 20
 		"cargo space" > 500
 	source
 		government "Sheragi (Rebirth)"
@@ -696,7 +696,7 @@ mission "Eden Super Bulk Delivery [0]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment
-		payment 60000
+		payment 50000
 		dialog phrase "generic cargo delivery payment"
 
 mission "Eden Super Bulk Delivery [1]"
@@ -706,7 +706,7 @@ mission "Eden Super Bulk Delivery [1]"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 300 2 .02
 	to offer
-		random < 30
+		random < 10
 		"cargo space" > 500
 	source
 		government "Sheragi (Rebirth)"
@@ -717,7 +717,7 @@ mission "Eden Super Bulk Delivery [1]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment
-		payment 65000
+		payment 57500
 		dialog phrase "generic cargo delivery payment"
 
 mission "Eden Mega Bulk Delivery [0]"
@@ -727,7 +727,7 @@ mission "Eden Mega Bulk Delivery [0]"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 750 2 .02
 	to offer
-		random < 35
+		random < 10
 		"cargo space" > 900
 	source
 		government "Sheragi (Rebirth)"
@@ -738,7 +738,7 @@ mission "Eden Mega Bulk Delivery [0]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment
-		payment 150000
+		payment 110000
 		dialog phrase "generic cargo delivery payment"
 
 mission "Eden Mega Bulk Delivery [1]"
@@ -748,7 +748,7 @@ mission "Eden Mega Bulk Delivery [1]"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 750 2 .02
 	to offer
-		random < 20
+		random < 5
 		"cargo space" > 900
 	source
 		government "Sheragi (Rebirth)"
@@ -759,5 +759,5 @@ mission "Eden Mega Bulk Delivery [1]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment
-		payment 175000
+		payment 120000
 		dialog phrase "generic cargo delivery payment"
