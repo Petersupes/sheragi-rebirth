@@ -591,7 +591,7 @@ ship "White Brand"
 		"Electronic Warfare System" 2
 		"Sheragi Solar Intake" 2
 		
-		"Fusion Drive"
+		"Small Fusion Drive"
 	engine -43 159
 		zoom 0.9
 		over
