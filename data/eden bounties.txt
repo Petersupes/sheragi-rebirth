@@ -10,7 +10,8 @@ mission "Sheragi Bounty Hunting (Tiny) 1"
 	npc kill
 		government "Sheragi (Bounty)"
 		personality heroic staying nemesis target
-		near "<waypoints>" 1 1
+		system
+			near "<waypoints>" 1 1
 		fleet
 			names "sheragi"
 			variant
@@ -38,9 +39,8 @@ mission "Sheragi Bounty Hunting (Small)"
 		government "Sheragi (Bounty)"
 		personality heroic staying nemesis target
 		system
-			system
-				attributes "eden"
-				government "Uninhabited"
+			attributes "eden"
+			government "Uninhabited"
 			distance 2 6
 		fleet
 			names "sheragi"
