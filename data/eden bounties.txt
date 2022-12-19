@@ -1,8 +1,12 @@
 mission "Sheragi Bounty Hunting (Tiny)"
 	name "Wanted Dishonoured ship near <system>"
-	description "An automated Dishonoured fighter named the <npc> has been spotted near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
+	description "An automated Dishonoured fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
+	waypoint
+		attributes "eden"
+		government "Uninhabited"
+		distance 2 6
 	to offer
 		"combat rating" > 80
 		"combat rating" < 420
@@ -13,11 +17,7 @@ mission "Sheragi Bounty Hunting (Tiny)"
 	npc kill
 		government "Sheragi (Bounty)"
 		personality heroic staying nemesis target
-		system
-			system
-				attributes "eden"
-				government "Uninhabited"
-			distance 2 6
+		system "<waypoints>"
 		fleet
 			names "sheragi"
 			variant
