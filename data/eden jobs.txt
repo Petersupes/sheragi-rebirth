@@ -317,6 +317,7 @@ mission "Eden Passengers [4]"
 		dialog phrase "generic passenger dropoff payment"
 
 mission "Eden Transport miners to <planet>"
+	name "Transport miners to <planet>"
 	job
 	repeat
 	description "This family of <bunks> miners is hoping to find work on <destination>, and they will pay you <payment> to take them there."
@@ -337,6 +338,7 @@ mission "Eden Transport miners to <planet>"
 		dialog "You wish the mining family the best of luck on <planet>, and collect your payment of <payment>."
 
 mission "Eden Transport farmers to <planet>"
+	name "Transport farmers to <planet>"
 	job
 	repeat
 	description "This family of <bunks> farmers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
@@ -357,6 +359,7 @@ mission "Eden Transport farmers to <planet>"
 		dialog "You wish the farm family the best of luck on <planet>, and collect your payment of <payment>."
 
 mission "Eden Transport mill workers to <planet>"
+	name "Transport mill workers to <planet>"
 	job
 	repeat
 	description "This family of <bunks> mill workers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
@@ -377,6 +380,7 @@ mission "Eden Transport mill workers to <planet>"
 		dialog "You wish the workers the best of luck on <planet>, and collect your payment of <payment>."
 
 mission "Eden Transport workers to <planet>"
+	name "Transport workers to <planet>"
 	job
 	repeat
 	description "This family of <bunks> factory workers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
