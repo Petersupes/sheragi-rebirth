@@ -4,10 +4,6 @@ mission "Sheragi Bounty Hunting (Tiny) 1"
 	repeat
 	job
 	waypoint "Amuul"
-	to offer
-		"combat rating" > 80
-		"combat rating" < 420
-		random < 95
 	source
 		government "Sheragi (Rebirth)"
 		attributes "military"
