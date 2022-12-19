@@ -335,7 +335,7 @@ outfit "Kinetic Spear Rack"
 	thumbnail "outfit/unknown"
 	"mass" 3
 	"outfit space" -10
-	"kinetic spear capacity" 5
+	"kinetic spear capacity" 6
 	ammo "Kinetic Spear"
 	description "This rack is used to store extra ammunition for Kinetic Spear Launchers."
 
@@ -347,7 +347,7 @@ outfit "Kinetic Spear Launcher"
 	"outfit space" -40
 	"weapon capacity" -40
 	"gun ports" -1
-	"kinetic spear capacity" 10
+	"kinetic spear capacity" 6
 	weapon
 		sprite "projectile/rail slug"
 		sound "piercer"

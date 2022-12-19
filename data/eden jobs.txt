@@ -540,6 +540,7 @@ mission "Eden Family [0]"
 	destination
 		distance 2 16
 		government "Sheragi (Rebirth)"
+		not attributes "volcanic"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -561,6 +562,7 @@ mission "Eden Family [1]"
 	destination
 		distance 3 20
 		government "Sheragi (Rebirth)"
+		not attributes "volcanic"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -582,6 +584,7 @@ mission "Eden Family [2]"
 	destination
 		distance 4 24
 		government "Sheragi (Rebirth)"
+		not attributes "volcanic"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -603,6 +606,7 @@ mission "Eden Family [3]"
 	destination
 		distance 4 32
 		government "Sheragi (Rebirth)"
+		not attributes "volcanic"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -679,7 +683,7 @@ mission "Eden Super Bulk Delivery [0]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 200 2 .02
+	cargo random 300 2 .02
 	to offer
 		random < 50
 		"cargo space" > 500
@@ -700,7 +704,7 @@ mission "Eden Super Bulk Delivery [1]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 200 2 .02
+	cargo random 300 2 .02
 	to offer
 		random < 30
 		"cargo space" > 500
@@ -714,4 +718,46 @@ mission "Eden Super Bulk Delivery [1]"
 	on complete
 		payment
 		payment 65000
+		dialog phrase "generic cargo delivery payment"
+
+mission "Eden Mega Bulk Delivery [0]"
+	name "Extremely large bulk delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 750 2 .02
+	to offer
+		random < 35
+		"cargo space" > 900
+	source
+		government "Sheragi (Rebirth)"
+	destination
+		distance 2 8
+		government "Sheragi (Rebirth)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 150000
+		dialog phrase "generic cargo delivery payment"
+
+mission "Eden Mega Bulk Delivery [1]"
+	name "Extremely large bulk delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 750 2 .02
+	to offer
+		random < 20
+		"cargo space" > 900
+	source
+		government "Sheragi (Rebirth)"
+	destination
+		distance 3 8
+		government "Sheragi (Rebirth)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 175000
 		dialog phrase "generic cargo delivery payment"

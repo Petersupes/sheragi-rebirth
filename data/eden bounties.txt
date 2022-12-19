@@ -1,0 +1,137 @@
+mission "Sheragi Bounty Hunting (Tiny)"
+	name "Wanted Dishonoured ship near <system>"
+	description "An automated Dishonoured fighter named the <npc> has been spotted near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 80
+		random < 20
+	source
+		government "Sheragi (Rebirth)"
+		attributes "military"
+	npc kill
+		government "Sheragi (Bounty)"
+		personality heroic staying nemesis target
+		system
+			attributes "eden"
+			government "Uninhabited"
+			distance 2 6
+		fleet
+			names "sheragi"
+			variant
+				"Black Diamond"
+		dialog phrase "generic hunted bounty eliminated dialog"
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 145000
+		dialog phrase "generic bounty hunting payment dialog"
+
+mission "Sheragi Bounty Hunting (Small)"
+	name "Wanted Dishonoured ship near <system>"
+	description "A relatively small Dishonoured warship named the <npc> has been spotted near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 400
+		random < 20
+	source
+		government "Sheragi (Rebirth)"
+		attributes "military"
+	npc kill
+		government "Sheragi (Bounty)"
+		personality heroic staying nemesis target
+		system
+			attributes "eden"
+			government "Uninhabited"
+			distance 2 6
+		fleet
+			names "sheragi"
+			variant
+				"Bronze Edge"
+			variant
+				"Bronze Edge (Pulse)"
+			variant
+				"Bronze Edge (PWave)"
+			variant
+				"Bronze Edge (Cyclotron)"
+		dialog phrase "generic hunted bounty eliminated dialog"
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 420000
+		dialog phrase "generic bounty hunting payment dialog"
+
+mission "Sheragi Bounty Hunting (Medium)"
+	name "Wanted Dishonoured ship near <system>"
+	description "A Dishonoured warship named the <npc> has been spotted near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 450
+		random < 20
+	source
+		government "Sheragi (Rebirth)"
+		attributes "military"
+	npc kill
+		government "Sheragi (Bounty)"
+		personality heroic staying nemesis target
+		system
+			attributes "eden"
+			government "Uninhabited"
+			distance 2 6
+		fleet
+			names "sheragi"
+			variant
+				"Ruby Hammer (Pulse)"
+			variant
+				"Ruby Hammer (PWave)"
+		dialog phrase "generic hunted bounty eliminated dialog"
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 485000
+		dialog phrase "generic bounty hunting payment dialog"
+
+mission "Sheragi Bounty Hunting (Large)"
+	name "Wanted Dishonoured ship near <system>"
+	description "A large Dishonoured warship named the <npc> has been spotted near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 800
+		random < 20
+	source
+		government "Sheragi (Rebirth)"
+		attributes "military"
+	npc kill
+		government "Sheragi (Bounty)"
+		personality heroic staying nemesis target
+		system
+			attributes "eden"
+			government "Uninhabited"
+			distance 2 6
+		fleet
+			names "sheragi"
+			variant 3
+				"Platinum Spear"
+			variant 3
+				"Platinum Spear (Pulse)"
+			variant 3
+				"Platinum Spear (PWave)"
+			variant 3
+				"Platinum Spear (Shields)"
+			variant
+				"Gold Shield"
+			variant
+				"Gold Shield (Pulse)"
+			variant
+				"Gold Shield (Pwave)"
+			variant
+				"Gold Shield (Cyclotron)"
+		dialog phrase "generic hunted bounty eliminated dialog"
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 1420000
+		dialog phrase "generic bounty hunting payment dialog"

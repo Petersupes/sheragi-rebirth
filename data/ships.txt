@@ -26,10 +26,14 @@ ship "Platinum Spear"
 	outfits
 		"Particle Waveform Turret" 8
 		"Sheragi Anti-Missile" 2
+		"Kinetic Spear Launcher" 2
+		"Kinetic Spear Rack"
+		"Kinetic Spear" 18
 		"Dense Particle Shielding"
 		"Large EM Battery"
 		"Large Hybrid Cooling"
 		"Electronic Warfare System" 2
+		"Sheragi Solar Intake" 2
 		
 		"Fusion Drive"
 	engine 83 275
@@ -99,8 +103,8 @@ ship "Platinum Spear"
 	turret 16.5 -111 "Particle Waveform Turret"
 	turret 0 114 "Sheragi Anti-Missile"
 	turret 0 183 "Sheragi Anti-Missile"
-	gun -96 -23
-	gun 96 -23
+	gun -96 -23 "Kinetic Spear Launcher"
+	gun 96 -23 "Kinetic Spear Launcher"
 	explode "tiny explosion" 60
 	explode "small explosion" 26
 	explode "medium explosion" 47
@@ -145,9 +149,11 @@ ship "Gold Shield"
 		"Particle Waveform Turret" 4
 		"Sheragi Anti-Missile" 2
 		
-		"Large EM Battery"
+		"Medium EM Battery" 2
+		"Dense Particle Shielding"
 		"Large Hybrid Cooling"
 		"Electronic Warfare System" 2
+		"Sheragi Solar Intake" 2
 		
 		"Fusion Drive"
 	engine -174 100
@@ -371,6 +377,14 @@ ship "Opal Glaive" "Opal Glaive (Light)"
 		"Light's Bane"
 		
 		"Fusion Drive"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Anti-Missile"
+	turret "Sheragi Anti-Missile"
 
 ship "Opal Glaive" "Opal Glaive (Shadow)"
 	outfits
@@ -382,6 +396,14 @@ ship "Opal Glaive" "Opal Glaive (Shadow)"
 		"Shadow's Blade"
 		
 		"Fusion Drive"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Pulse Beam Turret"
+	turret "Sheragi Anti-Missile"
+	turret "Sheragi Anti-Missile"
 
 ship "Bronze Edge"
 	sprite "ship/bronzeedge"
