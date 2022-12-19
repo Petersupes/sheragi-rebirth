@@ -324,7 +324,7 @@ outfit "Particle Waveform Cannon"
 outfit "Kinetic Spear"
 	category "Ammunition"
 	cost 15000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/kinetic spear"
 	"mass" .5
 	"kinetic spear capacity" -1
 	description "A Kinetic Spear is ammunition for the Kinetic Spear Launcher; without a Launcher to store them in you cannot purchase or use Kinetic Spears."
@@ -332,7 +332,7 @@ outfit "Kinetic Spear"
 outfit "Kinetic Spear Rack"
 	category "Ammunition"
 	cost 45000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/kinetic spear rack"
 	"mass" 3
 	"outfit space" -10
 	"kinetic spear capacity" 6
@@ -342,17 +342,17 @@ outfit "Kinetic Spear Rack"
 outfit "Kinetic Spear Launcher"
 	category "Secondary Weapons"
 	cost 2250000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/kinetic spear launcher"
 	"mass" 28
 	"outfit space" -40
 	"weapon capacity" -40
 	"gun ports" -1
 	"kinetic spear capacity" 6
 	weapon
-		sprite "projectile/rail slug"
+		sprite "projectile/kinetic spear"
 		sound "piercer"
 		ammo "Kinetic Spear"
-		icon "icon/piercer"
+		icon "icon/kinetic spear"
 		"fire effect" "basic launch"
 		"hit effect" "kinetic impact"
 		"die effect" "missile death"
