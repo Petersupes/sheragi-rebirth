@@ -10,7 +10,7 @@ mission "Sheragi Bounty Hunting (Tiny) 1"
 	npc kill
 		government "Sheragi (Bounty)"
 		personality heroic staying nemesis target
-		system "<waypoints>"
+		system "Amuul"
 		fleet
 			names "sheragi"
 			variant
