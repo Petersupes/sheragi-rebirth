@@ -72,6 +72,9 @@ mission "Stuck in Eden"
 		attributes "eden"
 	waypoint "Ithquent"
 	destination "Eden Gateway"
+	to offer
+		random < 30
+		not "Stuck in Eden: active"
 	on offer
 		require "Quantum Keystone" 0
 		require "Quantum Key Stone" 0

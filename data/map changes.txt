@@ -2602,7 +2602,7 @@ planet Duil
 		fleet "Sheragi Fleet Big" 1
 
 planet Fekiw
-	attributes eden rich  urban
+	attributes eden rich urban
 	landscape land/clouds_02
 	description `Fekiw is the primary economic centre of Sheragi space, all trading and business runs through the cloud cities here in one way or another. The vast wealth that flows through this planet has led to it being the home of many of the wealthiest citizens. Rumour has it that near the top of this economic food chain of rich business owners is a human.`
 	spaceport `Due to the sheer amount of money on Fekiw the floating spaceport is so fancy that you feel slightly bad for scuffing your boots along the gleaming white floor.`
@@ -2629,7 +2629,7 @@ planet Fewihl
 		fleet "Sheragi Fleet Big" 1
 
 planet Ghrophund
-	attributes farming eden
+	attributes farming eden textiles
 	landscape land/forest4
 	description `Ghrophund is full of towering mountain ranges, divided by sprawling green valleys, many converted into farmland.`
 	spaceport `Inspired by the captivating beauty of the planet the spaceport here was made with aesthetics in mind. As such it is one of the best you've ever seen, a perfect hexagonal shape seamlessly encircling a georgeous Sheragi city of glistening spires.`
@@ -2683,7 +2683,7 @@ planet Lesot
 		fleet "Sheragi Fleet Big" 1
 
 planet Qumadosfan
-	attributes eden rich
+	attributes eden rich tourism
 	landscape land/beach14
 	description `The vast ocean covering Qumadosfan is the most spectacular in all of Sheragi space, this and the abundant reefs and archipelagos make it the top holiday spot in all of Eden and as such an enormous amount of money flows through this planet's tourism industry.`
 	spaceport `The spaceport here is built atop the water, the supports running down into the depths. From what you can see every other business is a bar and numerous drunk Sheragi and Humans stagger about the place.`
@@ -2711,7 +2711,7 @@ planet Reskafar
 		fleet "Sheragi Fleet Big" 1
 
 planet Shio
-	attributes factory farming eden urban
+	attributes factory farming eden urban textiles
 	landscape land/city1
 	description `The planet of Shio is remarkably similiar to that of Earth. As such it has become the primary home of the Humans who fled the alpha wars half a millenium ago. Because the Sheragi reproduce a lot slower than Humanity almost half of the planet's occupants are Human, resulting in some of the most unique cities in both Sheragi and Human Space.`
 	description `	This planet is the only one is Sheragi space where where the selling Human ships and outfits has been able to outcompete Sheragi counterparts by selling technology that is more affordable for the average Human citizen. Leading this charge is the creativley named Shio Industries.
