@@ -8,18 +8,14 @@ mission "Sheragi Bounty Hunting (Tiny) 1"
 		government "Sheragi (Rebirth)"
 		attributes "military"
 	npc kill
-		to spawn
-			scanned == 1
 		government "Sheragi (Bounty)"
 		personality heroic staying nemesis target
-		near <waypoints> 1 1
+		near "<waypoints>" 1 1
 		fleet
 			names "sheragi"
 			variant
 				"Black Diamond"
 		dialog phrase "generic hunted bounty eliminated dialog"
-	on waypoint
-		scanned = 1
 	on visit
 		dialog phrase "generic bounty hunting on visit"
 	on complete
