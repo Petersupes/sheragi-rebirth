@@ -2531,8 +2531,8 @@ planet Arytissi
 planet Bekim
 	attributes station eden
 	landscape land/loc0
-	description `Sheragi test planet`
-	spaceport `Sheragi test spaceport`
+	description `This station is where the majority of all Dishonoured ships are made. The whole station is full of Sheragi who want to murder you.`
+	spaceport `The spaceport here is full of Sheragi who want to murder you.`
 	government "Sheragi (Dishonoured)"
 	outfitter "Sheragi Basic"
 	outfitter "Sheragi Advanced"
@@ -2575,8 +2575,8 @@ planet Daarnik
 planet Degis
 	attributes factory farming eden
 	landscape land/beach1
-	description `Sheragi test planet`
-	spaceport `Sheragi test spaceport`
+	description `This planet is predominantly a civilian population of Sheragi who just want to be independant, many do not share ideals with the Dishonoured. There are many Dishonoured Sheragi here who want to murder you.`
+	spaceport `The spaceport here is full of Dishonoured Sheragi who want to murder you.`
 	government "Sheragi (Dishonoured)"
 	outfitter "Sheragi Basic"
 	outfitter "Sheragi Advanced"
@@ -2590,8 +2590,8 @@ planet Degis
 planet Duil
 	attributes factory farming eden
 	landscape land/desert12
-	description `Sheragi test planet`
-	spaceport `Sheragi test spaceport`
+	description `Duil is one of the most powerful Dishonoured worlds, as such it is full of Sheragi who want to murder you.`
+	spaceport `The spaceport here is full of Sheragi who want to murder you.`
 	government "Sheragi (Dishonoured)"
 	outfitter "Sheragi Basic"
 	outfitter "Sheragi Advanced"
@@ -2697,8 +2697,8 @@ planet Qumadosfan
 planet Reskafar
 	attributes factory farming eden
 	landscape land/badlands0
-	description `Sheragi test planet`
-	spaceport `Sheragi test spaceport`
+	description `This dry world is full of Dishonoured who want to murder you.`
+	spaceport `The spaceport here is full of Sheragi who want to murder you.`
 	government "Sheragi (Dishonoured)"
 	outfitter "Sheragi Basic"
 	outfitter "Sheragi Advanced"
@@ -2777,8 +2777,8 @@ planet Vehallar
 planet Vilzriquathtor
 	attributes factory farming eden
 	landscape land/dmottl1
-	description `Sheragi test planet`
-	spaceport `Sheragi test spaceport`
+	description `This small Dishonoured world is an outpost created to keep fleets from reaching Reskafar. There are Sheragi everywhere who want to murder you.`
+	spaceport `The spaceport here is full of Sheragi who want to murder you.`
 	government "Sheragi (Dishonoured)"
 	outfitter "Sheragi Basic"
 	bribe 0.03
