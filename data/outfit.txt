@@ -56,7 +56,7 @@ outfit "Small Fusion Drive"
 	category "Engines"
 	licenses
 		"Sheragi"
-	cost 20000000
+	cost 16000000
 	thumbnail "outfit/unknown"
 	"mass" 352
 	"outfit space" -352
@@ -359,14 +359,14 @@ outfit "Kinetic Spear Launcher"
 		"inaccuracy" 1
 		"velocity" 6
 		"lifetime" 750
-		"reload" 600
+		"reload" 480
 		"firing energy" 1500
 		"firing heat" 120
 		"shield damage" 0
 		"hull damage" 5500
 		"hit force" 3000
 		"piercing" 1
-		"missile strength" 450
+		"missile strength" 400
 	description "The Sheragi Kinetic Spear Launcher is a weapon designed to rip through the hulls of ships. The weapon fires a large unguided tungsten rod which completley penetrates shields. The fact it is made of solid metal makes this weapon very difficult to shoot down with standard Anti-Missile systems."
 
 effect "kinetic impact"

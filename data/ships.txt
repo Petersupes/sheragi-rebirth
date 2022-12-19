@@ -5,7 +5,7 @@ ship "Platinum Spear"
 		category "Heavy Warship"
 		licenses
 			"Sheragi Capital"
-		"cost" 30000000
+		"cost" 35000000
 		"shields" 20000
 		"hull" 42000
 		"required crew" 82
@@ -124,7 +124,7 @@ ship "Gold Shield"
 		category "Heavy Warship"
 		licenses
 			"Sheragi Capital"
-		"cost" 22000000
+		"cost" 24000000
 		"shields" 18000
 		"hull" 34000
 		"required crew" 69
@@ -223,7 +223,7 @@ ship "Gold Shield"
 	explode "nuke explosion" 2
 	"final explode" "nuke explosion" 2
 	"final explode" "nuke residue fast" 50
-	description "A powerful Sheragi carrier designed to quickly deploy fighters to swarm enemy ships. The ship comes equipped with the same a more powerful version of the repair system of the Black Diamonds. This increases its survivability, providing time for the fighters to finish off the enemy."
+	description "A powerful Sheragi carrier designed to quickly deploy fighters to swarm enemy ships. The ship comes equipped with a more powerful version of the repair system the Black Diamonds use. This increases its survivability, providing time for the fighters to finish off the enemy."
 	description "For the Sheragi, this ship could hold arouned 90 individuals. For others, however, that number more than doubles, bringing it on par with the largest city ships."
 
 ship "Emerald Sword" "Emerald Sword (Modern)"
@@ -473,7 +473,7 @@ ship "Bronze Edge"
 	explode "medium explosion" 28
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Sheragi, despite being large creatures have managed to create a warship of relativley small size, having space for its passengers while still remaining, somehow, functional."
+	description "The Sheragi, despite being large creatures have managed to create a warship of relatively small size, having space for its passengers while still remaining, somehow, functional."
 
 ship "Ruby Hammer"
 	sprite ship/rubyhammer
@@ -648,4 +648,4 @@ ship "White Brand"
 	explode "large explosion" 45
 	explode "huge explosion" 32
 	"final explode" "final explosion large" 2
-	description "This Sheragi warship is a mainstay of the Sheragi military, providing the power neccesary while remaining cost effective enough that it can be present in numbers within the battlefield."
+	description "This Sheragi warship is a mainstay of the Sheragi military, providing the combat power neccesary while remaining cost effective enough that it can be present in numbers within the battlefield."
