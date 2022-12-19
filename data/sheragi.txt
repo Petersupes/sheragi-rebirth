@@ -63,6 +63,7 @@ shipyard "Sheragi Advanced"
 	"Platinum Spear"
 	"Gold Shield"
 	"Ruby Hammer"
+	"White Brand"
 
 # Ship names:
 phrase "sheragi"
