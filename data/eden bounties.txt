@@ -1,6 +1,6 @@
 mission "Sheragi Bounty Hunting (Tiny) 1"
-	name "Wanted Dishonoured ship near <waypoints>"
-	description "An automated Dishonoured fighter named the <npc> has been spotted in the <waypoints> system. Scan the system to find the ship then destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonoured ship in <waypoints>"
+	description "An automated Dishonoured fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Amuul"
@@ -10,8 +10,7 @@ mission "Sheragi Bounty Hunting (Tiny) 1"
 	npc kill
 		government "Sheragi (Bounty)"
 		personality heroic staying nemesis target
-		system
-			near "Amuul" 1 1
+		system "<waypoints>"
 		fleet
 			names "sheragi"
 			variant
