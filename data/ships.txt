@@ -562,51 +562,49 @@ ship "White Brand"
 	attributes
 		category "Medium Warship"
 		licenses
-			"Sheragi Capital"
+			"Sheragi"
 		"cost" 30000000
-		"shields" 20000
-		"hull" 42000
-		"required crew" 82
-		"bunks" 286
-		"mass" 1520
-		"drag" 20
+		"shields" 12500
+		"hull" 32000
+		"required crew" 47
+		"bunks" 102
+		"mass" 1000
+		"drag" 15
 		"heat dissipation" 0.45
 		"fuel capacity" 800
 		"cargo space" 60
-		"outfit space" 2300
-		"weapon capacity" 510
-		"engine capacity" 230
+		"outfit space" 1050
+		"weapon capacity" 400
+		"engine capacity" 156
 		weapon
 			"blast radius" 420
 			"shield damage" 7664
 			"hull damage" 3832
 			"hit force" 11495
 	outfits
-		"Particle Waveform Turret" 8
-		"Sheragi Anti-Missile" 2
-		"Kinetic Spear Launcher" 2
-		"Kinetic Spear Rack"
-		"Kinetic Spear" 18
+		"Particle Waveform Turret" 5
+		"Particle Waveform Cannon" 2
+		"Sheragi Anti-Missile"
 		"Dense Particle Shielding"
-		"Large EM Battery"
+		"Medium EM Battery" 2
 		"Large Hybrid Cooling"
 		"Electronic Warfare System" 2
 		"Sheragi Solar Intake" 2
 		
 		"Fusion Drive"
 	engine -43 159
-		zoom 1
+		zoom 0.9
 		over
 	engine 43 159
-		zoom 1
+		zoom 0.9
 		over
 	engine -139 128
-		zoom 0.65
+		zoom 0.6
 		angle 28
 		over
 	engine 139 128
-		zoom 0.65
-		angle 298
+		zoom 0.6
+		angle 332
 		over
 	"reverse engine" -84 -7
 		zoom 0.6
@@ -617,15 +615,15 @@ ship "White Brand"
 		angle 25
 		over
 	"steering engine" -139 128
-		zoom 1
+		zoom 0.85
 		angle 28
 		over
-		left
-	"steering engine" 139 128
-		zoom 1
-		angle 298
-		over
 		right
+	"steering engine" 139 128
+		zoom 0.85
+		angle 332
+		over
+		left
 	turret 0 -95 "Particle Waveform Turret"
 	turret 0 -26 "Sheragi Anti-Missile"
 	turret -47 -2 "Particle Waveform Turret"
@@ -634,13 +632,10 @@ ship "White Brand"
 	turret 67 53 "Particle Waveform Turret"
 	gun -56 -155 "Particle Waveform Cannon"
 	gun 56 -155 "Particle Waveform Cannon"
-	explode "tiny explosion" 60
-	explode "small explosion" 26
-	explode "medium explosion" 47
-	explode "large explosion" 39
-	explode "huge explosion" 42
-	explode "nuke explosion" 2
-	"final explode" "nuke explosion" 2
-	"final explode" "nuke residue fast" 50
-	description "A powerful Sheragi warship designed to break through enemy lines. The few flaws in its design are made up for by its immense size, making it one of the most powerful warships you've ever seen."
-	description "With the collaboration between Human and Sheragi engineering this ship is the the most efficient warship in the Sheragi arsenal."
+	explode "tiny explosion" 55
+	explode "small explosion" 40
+	explode "medium explosion" 56
+	explode "large explosion" 45
+	explode "huge explosion" 32
+	"final explode" "final explosion large" 2
+	description "This Sheragi warship is a mainstay of the Sheragi military, providing the power neccesary while remaining cost effective enough that it can be present in numbers within the battlefield."
