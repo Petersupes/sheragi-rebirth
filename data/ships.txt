@@ -577,10 +577,10 @@ ship "White Brand"
 		"weapon capacity" 400
 		"engine capacity" 156
 		weapon
-			"blast radius" 420
-			"shield damage" 7664
-			"hull damage" 3832
-			"hit force" 11495
+			"blast radius" 330
+			"shield damage" 3300
+			"hull damage" 1650
+			"hit force" 4950
 	outfits
 		"Particle Waveform Turret" 5
 		"Particle Waveform Cannon" 2
