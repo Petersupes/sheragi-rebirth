@@ -482,7 +482,7 @@ ship "Ruby Hammer"
 		category "Heavy Freighter"
 		licenses
 			"Sheragi"
-		"cost" 18000000
+		"cost" 14000000
 		"shields" 11000
 		"hull" 29500
 		"required crew" 38
@@ -563,7 +563,7 @@ ship "White Brand"
 		category "Medium Warship"
 		licenses
 			"Sheragi"
-		"cost" 30000000
+		"cost" 20000000
 		"shields" 12500
 		"hull" 32000
 		"required crew" 47
