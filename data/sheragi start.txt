@@ -101,7 +101,7 @@ mission "Sheragi intro 1"
 		not attributes "uninhabited"
 	to offer
 		random < 30
-		has "First Contact: Sheragi: done"
+		has "First Contact: Sheragi: offered"
 	on offer
 		set "license: Sheragi"
 		set "license: Sheragi Capital"
