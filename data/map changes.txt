@@ -2599,7 +2599,7 @@ planet Duil
 	security 0.5
 	tribute 1200
 		threshold 3000
-		fleet "Sheragi Fleet Big" 1
+		fleet "Dishonoured Big" 1
 
 planet Fekiw
 	attributes eden rich urban
