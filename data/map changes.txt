@@ -2542,7 +2542,8 @@ planet Bekim
 	security 0.5
 	tribute 1200
 		threshold 3000
-		fleet "Sheragi Fleet Big" 1
+		fleet "Dishonoured Big" 1
+		fleet "Dishonoured Small" 2
 
 planet Charirfla
 	attributes eden mining volcanic
@@ -2570,12 +2571,13 @@ planet Daarnik
 	security 0.5
 	tribute 1200
 		threshold 3000
-		fleet "Sheragi Fleet Big" 1
+		fleet "Dishonoured Big" 1
+		fleet "Dishonoured Small" 2
 
 planet Degis
 	attributes factory farming eden
 	landscape land/beach1
-	description `This planet is predominantly a civilian population of Sheragi who just want to be independant, many do not share ideals with the Dishonoured. There are many Dishonoured Sheragi here who want to murder you.`
+	description `This planet is predominantly a civilian population of Sheragi who just want to be independant, many do not share ideals with the Dishonoured. However, there are many Dishonoured Sheragi here who want to murder you.`
 	spaceport `The spaceport here is full of Dishonoured Sheragi who want to murder you.`
 	government "Sheragi (Dishonoured)"
 	outfitter "Sheragi Basic"
@@ -2585,7 +2587,8 @@ planet Degis
 	security 0.5
 	tribute 1200
 		threshold 3000
-		fleet "Sheragi Fleet Big" 1
+		fleet "Dishonoured Big" 1
+		fleet "Dishonoured Small" 2
 
 planet Duil
 	attributes factory farming eden
@@ -2600,6 +2603,7 @@ planet Duil
 	tribute 1200
 		threshold 3000
 		fleet "Dishonoured Big" 1
+		fleet "Dishonoured Small" 2
 
 planet Fekiw
 	attributes eden rich urban
@@ -2708,7 +2712,8 @@ planet Reskafar
 	security 0.5
 	tribute 1200
 		threshold 3000
-		fleet "Sheragi Fleet Big" 1
+		fleet "Dishonoured Big" 1
+		fleet "Dishonoured Small" 2
 
 planet Shio
 	attributes factory farming eden urban textiles
@@ -2785,7 +2790,8 @@ planet Vilzriquathtor
 	security 0.5
 	tribute 1200
 		threshold 3000
-		fleet "Sheragi Fleet Big" 1
+		fleet "Dishonoured Big" 1
+		fleet "Dishonoured Small" 2
 
 planet "Eden Gateway"
 	attributes "requires: quantum keystone"
