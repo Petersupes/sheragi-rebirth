@@ -47,8 +47,8 @@ mission "Izkagg 1"
 	name "Escort Izkagg to <planet>"
 	description "Help Izkagg, a budding Sheragi warrior, by dueling his ship <ship>."
 	minor
-	source "Grophund"
-	destination "Grophund"
+	source "Ghrophund"
+	destination "Ghrophund"
 	to offer
 		random < 35
 		or
