@@ -51,7 +51,9 @@ mission "Izkagg 1"
 	destination "Grophund"
 	to offer
 		random < 35
-		"combat rating" > 1000
+		or
+			"combat rating" > 1000
+			"net worth" > 12000000
 		has "First Contact: Sheragi: offered"
 	on offer
 		conversation
