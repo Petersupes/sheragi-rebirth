@@ -37,7 +37,7 @@ mission "First Contact: Sheragi"
 				`	"I used a quantum keystone, you don't have those?"`
 					goto stone
 			label wormhole
-			`	"That wormhole is unstable how did you survive passing through?" the human asks.`
+			`	"That wormhole is unstable, how did you survive passing through?" the human asks.`
 			choice
 				`	"I used a quantum keystone, you don't have those?"`
 			label stone
