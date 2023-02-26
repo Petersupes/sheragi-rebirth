@@ -376,3 +376,10 @@ effect "kinetic impact"
 	sound "explosion medium"
 	"lifetime" 30
 	"velocity scale" 0
+
+outfit "Sheragi War Manuscript"
+	category "Unique"
+	thumbnail "outfit/unknown"
+	"hull protection" 0.05
+	"piercing protection" 0.05
+	description "An ancient Sheragi manuscript dating back to the Sheragi civil war containing numerous battle tactics for protecting against incoming attacks. It was gifted to you by Izkagg, a Sheragi warrior you helped."

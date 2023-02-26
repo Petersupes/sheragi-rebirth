@@ -73,6 +73,7 @@ phrase "sheragi"
 		"Lorkor" #strong
 		"Ingowilel" #graceful
 		"Ethimir" #burning
+		"Lleisgarir" #rising
 	word
 		" "
 	word
