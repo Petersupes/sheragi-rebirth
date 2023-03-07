@@ -56,7 +56,7 @@ outfit "Fusion Afterburner"
 	category "Engines"
 	"cost" 425000
 	thumbnail "outfit/unknown"
-	"mass" 34
+	"mass" 24
 	"outfit space" -24
 	"engine capacity" -14
 	"afterburner thrust" 105
@@ -79,7 +79,7 @@ effect "fusion afterburner effect"
 outfit "Fusion Afterburner Hyperdrive"
 	category "Systems"
 	cost 100000
-	thumbnail "outfit/scram drive"
+	thumbnail "outfit/unknown"
 	"mass" 20
 	"outfit space" -20
 	"scram drive" .2
@@ -91,7 +91,7 @@ outfit "Fusion Afterburner Hyperdrive"
 outfit "Fusion Power Converter"
 	category "Systems"
 	cost 150000
-	thumbnail "outfit/scram drive"
+	thumbnail "outfit/unknown"
 	"mass" 10
 	"outfit space" -10
 	"afterburner thrust" 42
@@ -109,7 +109,9 @@ outfit "Small Fusion Drive"
 	"mass" 352
 	"outfit space" -352
 	"engine capacity" -156
+	"scram drive" .2
 	"jump speed" 0.2
+	"jump fuel" 100
 	"hyperdrive" 1
 	"energy generation" 38
 	"heat generation" 124
