@@ -264,8 +264,8 @@ ship "Opal Glaive"
 		licenses
 			"Sheragi Capital"
 		"cost" 50000000
-		"shields" 25000
-		"hull" 45000
+		"shields" 24000
+		"hull" 42000
 		"required crew" 85
 		"bunks" 276
 		"mass" 1520

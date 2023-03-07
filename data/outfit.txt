@@ -52,6 +52,54 @@ outfit "Hybrid Nuclear Drive"
 	"steering flare sound" "atomic tiny"
 	description "This complex engine is primarily fission powered but is also part fusion reactor, allowing the engine to function as a hyperdrive as well."
 
+outfit "Fusion Afterburner"
+	category "Engines"
+	"cost" 425000
+	thumbnail "outfit/unknown"
+	"mass" 34
+	"outfit space" -24
+	"engine capacity" -14
+	"afterburner thrust" 105
+	"afterburner energy" -12
+	"afterburner heat" 50
+	"afterburner fuel" 0.55
+	"afterburner effect" "fusion afterburner effect"
+	"fusion afterburner attachment" 1
+	description "Sheragi Afterburner line 1."
+	description "	Sheragi Afterburner line 2."
+
+effect "fusion afterburner effect"
+	sprite "effect/fusionflare"
+		scale 0.4
+		"rewind"
+		"frame rate" 30
+	sound "atomic medium"
+	"lifetime" 1
+
+outfit "Fusion Afterburner Hyperdrive"
+	category "Systems"
+	cost 100000
+	thumbnail "outfit/scram drive"
+	"mass" 20
+	"outfit space" -20
+	"scram drive" .2
+	"jump fuel" 100
+	"hyperdrive" 1
+	"fusion afterburner attachment" -1
+	description "Attachment 2."
+
+outfit "Fusion Power Converter"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/scram drive"
+	"mass" 10
+	"outfit space" -10
+	"afterburner thrust" 42
+	"afterburner energy" 3
+	"afterburner heat" 20
+	"fusion afterburner attachment" -1
+	description "Attachment 1."
+
 outfit "Small Fusion Drive"
 	category "Engines"
 	licenses
@@ -293,7 +341,7 @@ outfit "Sheragi Pulse Beam Turret"
 		"firing heat" 11
 		"shield damage" 10
 		"hull damage" 11
-	description "This beam turret is the peak of Sheragi weaponry, balanced in its effectiveness at damaging both shields and hull. One should beware the high energy cost of this weapon and the difficulty installing a weapon of such a size."
+	description "This beam turret is the peak of standard Sheragi weaponry, balanced in its effectiveness at damaging both shields and hull. One should beware the high energy cost of this weapon and the difficulty installing a weapon of such a size."
 
 outfit "Particle Waveform Cannon"
 	category "Guns"
@@ -382,4 +430,5 @@ outfit "Sheragi War Manuscript"
 	thumbnail "outfit/unknown"
 	"hull protection" 0.05
 	"piercing protection" 0.05
+	"force protection" 0.05
 	description "An ancient Sheragi manuscript dating back to the Sheragi civil war containing numerous battle tactics for protecting against incoming attacks. It was gifted to you by Izkagg, a Sheragi warrior you helped."

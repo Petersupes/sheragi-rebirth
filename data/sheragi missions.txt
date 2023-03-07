@@ -45,7 +45,7 @@ mission "Boarding Dishonoured Gold"
 
 mission "Izkagg 1"
 	name "Escort Izkagg to <planet>"
-	description "Help Izkagg, a budding Sheragi warrior, by dueling his ship <ship>."
+	description "Help Izkagg, a budding Sheragi warrior, by dueling his ship <npc>."
 	minor
 	source "Ghrophund"
 	destination "Ghrophund"
