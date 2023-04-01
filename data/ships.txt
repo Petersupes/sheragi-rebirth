@@ -440,7 +440,7 @@ ship "Bronze Edge"
 		"Small Hybrid Cooling"
 		"Sheragi Solar Intake"
 		
-		"Hybrid Nuclear Drive"
+		"Large Fission Drive"
 	gun 0 -77 "Particle Waveform Cannon"
 	gun 45 -11 "Heavy Ion Cyclotron"
 	gun -45 -11 "Heavy Ion Cyclotron"

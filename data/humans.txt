@@ -276,7 +276,7 @@ ship "Shio Leviathan"
 		"Electronic Warfare System"
 		"Laser Rifle" 48
 		
-		"Hybrid Nuclear Drive"
+		"Large Fission Drive"
 		"Chipmunk Plasma Steering"
 	
 	engine -23 126.5

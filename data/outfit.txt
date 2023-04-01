@@ -25,23 +25,21 @@ outfit "Medium Hybrid Cooling"
 	"fuel capacity" 100
 	description "This cooling system was designed to cater for the sheragi's intensive heat needs. Additionally it serves as a fuel system to further the fuel capacity of sheragi ships."
 
-outfit "Hybrid Nuclear Drive"
+outfit "Large Fission Drive"
 	category "Engines"
 	cost 4250000
-	thumbnail "outfit/unknown"
-	"mass" 276
-	"outfit space" -276
-	"engine capacity" -115
-	"jump speed" 0.2
-	"hyperdrive" 1
-	"energy generation" 24
-	"heat generation" 19.4
-	"thrust" 54
-	"thrusting energy" 6.6
-	"thrusting heat" 7.2
-	"turn" 842
-	"turning energy" 2.2
-	"turning heat" 3.5
+	thumbnail "outfit/large fission drive"
+	"mass" 232
+	"outfit space" -232
+	"engine capacity" -101
+	"energy generation" 17.75
+	"heat generation" 70
+	"thrust" 50
+	"thrusting energy" 6.3
+	"thrusting heat" 6.9
+	"turn" 835
+	"turning energy" 2
+	"turning heat" 3.3
 	"flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
@@ -50,12 +48,12 @@ outfit "Hybrid Nuclear Drive"
 		"frame rate" 30
 		"rewind"
 	"steering flare sound" "atomic tiny"
-	description "This complex engine is primarily fission powered but is also part fusion reactor, allowing the engine to function as a hyperdrive as well."
+	description "This large complex engine is fission powered, resulting in a massive amount of energy to drive heavy ships forwards."
 
 outfit "Fusion Afterburner"
 	category "Engines"
 	"cost" 425000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/fusion afterburner"
 	"mass" 24
 	"outfit space" -24
 	"engine capacity" -14
@@ -64,9 +62,9 @@ outfit "Fusion Afterburner"
 	"afterburner heat" 50
 	"afterburner fuel" 0.55
 	"afterburner effect" "fusion afterburner effect"
-	"fusion afterburner attachment" 1
-	description "Sheragi Afterburner line 1."
-	description "	Sheragi Afterburner line 2."
+	"afterburner attachment" 1
+	description "THe Sheragi's first forays into space travel involved the use of fission and fusion powered thrusters similiar to this afterburner, this developed the basis of all of their future engine technologies."
+	description "	The key note about the Sheragi's original Fusion Afterburners was that they resulted in the Sheragi's development of the Hyperdrive by use of the afterburner as a reaction chamber."
 
 effect "fusion afterburner effect"
 	sprite "effect/fusionflare"
@@ -76,36 +74,36 @@ effect "fusion afterburner effect"
 	sound "atomic medium"
 	"lifetime" 1
 
-outfit "Fusion Afterburner Hyperdrive"
+outfit "Sheragi Hyperdrive"
 	category "Systems"
 	cost 100000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/sheragi hyperdrive"
 	"mass" 20
 	"outfit space" -20
 	"scram drive" .2
 	"jump fuel" 100
 	"hyperdrive" 1
-	"fusion afterburner attachment" -1
-	description "Attachment 2."
+	"afterburner attachment" -1
+	description "The Sheragi Hyperdrive was developed to be used in conjunction with the Fusion Afterburner, allowing it to function similiar to a Scram Drive but without the increased fuel cost."
 
 outfit "Fusion Power Converter"
 	category "Systems"
 	cost 150000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/fusion power converter"
 	"mass" 10
 	"outfit space" -10
 	"afterburner thrust" 42
 	"afterburner energy" 3
 	"afterburner heat" 20
-	"fusion afterburner attachment" -1
-	description "Attachment 1."
+	"afterburner attachment" -1
+	description "This simple attachment for the Fusion Afterburner recycles some of the generated energy back into the afterburner, increasing the thrust output. However, as this is mutually exclusive to the Sheragi Hyperdrive it is usually only used on larger ships that use Fusion Drives or madmen that install multiple afterburners."
 
 outfit "Small Fusion Drive"
 	category "Engines"
 	licenses
 		"Sheragi"
 	cost 16000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/small fusion drive"
 	"mass" 352
 	"outfit space" -352
 	"engine capacity" -156

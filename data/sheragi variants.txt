@@ -9,7 +9,7 @@ ship "Bronze Edge" "Bronze Edge (Pulse)"
 		"Small Hybrid Cooling"
 		"Sheragi Solar Intake"
 		
-		"Hybrid Nuclear Drive"
+		"Large Fission Drive"
 	gun "Sheragi Pulse Beam"
 	gun "Heavy Ion Cyclotron"
 	gun "Heavy Ion Cyclotron"
@@ -23,7 +23,7 @@ ship "Bronze Edge" "Bronze Edge (PWave)"
 		"Small Hybrid Cooling"
 		"Sheragi Solar Intake"
 		
-		"Hybrid Nuclear Drive"
+		"Large Fission Drive"
 
 ship "Bronze Edge" "Bronze Edge (Cyclotron)"
 	outfits
@@ -35,7 +35,7 @@ ship "Bronze Edge" "Bronze Edge (Cyclotron)"
 		"Small Hybrid Cooling"
 		"Sheragi Solar Intake"
 		
-		"Hybrid Nuclear Drive"
+		"Large Fission Drive"
 
 ship "Ruby Hammer" "Ruby Hammer (Pulse)"
 	outfits
