@@ -27,7 +27,7 @@ outfit "Medium Hybrid Cooling"
 
 outfit "Large Fission Drive"
 	category "Engines"
-	cost 4250000
+	cost 3500000
 	thumbnail "outfit/large fission drive"
 	"mass" 232
 	"outfit space" -232

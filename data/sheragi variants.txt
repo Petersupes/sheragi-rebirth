@@ -10,6 +10,8 @@ ship "Bronze Edge" "Bronze Edge (Pulse)"
 		"Sheragi Solar Intake"
 		
 		"Large Fission Drive"
+		"Fusion Afterburner"
+		"Sheragi Hyperdrive"
 	gun "Sheragi Pulse Beam"
 	gun "Heavy Ion Cyclotron"
 	gun "Heavy Ion Cyclotron"
@@ -24,6 +26,8 @@ ship "Bronze Edge" "Bronze Edge (PWave)"
 		"Sheragi Solar Intake"
 		
 		"Large Fission Drive"
+		"Fusion Afterburner"
+		"Sheragi Hyperdrive"
 
 ship "Bronze Edge" "Bronze Edge (Cyclotron)"
 	outfits
@@ -36,6 +40,8 @@ ship "Bronze Edge" "Bronze Edge (Cyclotron)"
 		"Sheragi Solar Intake"
 		
 		"Large Fission Drive"
+		"Fusion Afterburner"
+		"Sheragi Hyperdrive"
 
 ship "Ruby Hammer" "Ruby Hammer (Pulse)"
 	outfits

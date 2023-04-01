@@ -277,6 +277,8 @@ ship "Shio Leviathan"
 		"Laser Rifle" 48
 		
 		"Large Fission Drive"
+		"Fusion Afterburner"
+		"Sheragi Hyperdrive"
 		"Chipmunk Plasma Steering"
 	
 	engine -23 126.5
