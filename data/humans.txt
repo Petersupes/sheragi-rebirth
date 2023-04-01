@@ -70,6 +70,7 @@ outfitter "Shio Industries"
 	"Cargo Scanner"
 	"Local Map"
 	"Pilot's License"
+	"City-Ship License"
 
 shipyard "Shio Shipyards"
 	"Shio Leviathan"
@@ -77,6 +78,8 @@ shipyard "Shio Shipyards"
 	"Aerie (Shio)"
 	"Berserker (Shio)"
 	"Scout (Shio)"
+	"Dromedary"
+	"Bactrian"
 #
 fleet "Eden Merchants Small"
 	government "Merchant"
@@ -395,3 +398,85 @@ ship "Aerie" "Aerie (Eden)"
 		"Chipmunk Plasma Steering"
 		"Hyperdrive"
 	description "This version has been manufactured by Shio industries."
+
+ship "Bactrian" "Bactrian (Eden)"
+	outfits
+		"Hyperdrive"
+
+
+ship "Dromedary"
+	plural "Dromedaries"
+	sprite "ship/modified dromedary"
+	thumbnail "thumbnail/modified dromedary"
+	attributes
+		category "Utility"
+		"cost" 57600000
+		"shields" 15100
+		"hull" 9600
+		"required crew" 95
+		"bunks" 300
+		"mass" 2140
+		"drag" 15.1
+		"heat dissipation" .4
+		"fuel capacity" 900
+		"cargo space" 550
+		"outfit space" 740
+		"weapon capacity" 270
+		"engine capacity" 195
+		"outfit scan power" 18
+		"outfit scan efficiency" 48
+		"tactical scan power" 39
+		"asteroid scan power" 42
+		"atmosphere scan" 100
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Thrasher Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Sheragi Anti-Missile"
+
+		"Aeon Cell"
+		"Crystal Capacitor" 2
+		"Thermoelectric Cooler" 3
+		"Quantum Key Stone"
+		"Salvage Scanner"
+		"Laser Rifle" 200
+
+		"Smelter-Class Thruster"
+		"Smelter-Class Steering"
+		"Hyperdrive"
+		"Scram Drive"
+
+	engine 32.5 207
+	engine 3 207
+	engine -27.5 207
+	gun 65 -111
+		angle 40
+	gun -72 -97.5
+		angle 320
+	gun -66.5 61
+		angle 270
+	gun 78 64
+		angle 90
+	turret 10 -136.5 "Thrasher Turret"
+	turret -21.5 -57.5 "Point Defense Turret"
+	turret 51 101
+	turret -63.5 120 "Thrasher Turret"
+	turret 52.5 143 "Point Defense Turret"
+	bay "Fighter" -51 -54 under
+		"launch effect" "human internal"
+	bay "Fighter" 47 -40 under
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description `The Tycho Crater Cooperative's Dromedary was one of the foremost colonization ships during the early era before piracy became rampant and triggered the necessity for city-ships to be more combat-oriented. These ships incorporate extensive hydroponics, large construction equipment installations, and hundreds of densely packed "dream cells" built to transport people in bulk.`
+
