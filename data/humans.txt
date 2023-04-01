@@ -78,8 +78,8 @@ shipyard "Shio Shipyards"
 	"Aerie (Shio)"
 	"Berserker (Shio)"
 	"Scout (Shio)"
-	"Dromedary"
-	"Bactrian"
+	"Mule"
+	"Llama"
 #
 fleet "Eden Merchants Small"
 	government "Merchant"
@@ -143,27 +143,31 @@ fleet "Eden Merchants Large"
 	personality
 		confusion 30
 		timid frugal appeasing
-	variant 5
+	variant 25
 		"Shio Leviathan"
 		"Shio Firebird" 2
 		"Scout (Eden)" 3
-	variant 4
+	variant 20
 		"Shio Leviathan"
 		"Shio Firebird" 2
 		"Berserker (Eden)" 2
 		"Scout (Eden)" 6
-	variant 3
+	variant 15
 		"Shio Leviathan" 2
 		"Shio Firebird" 4
 		"Scout (Eden)" 4
-	variant 3
+	variant 15
 		"Shio Leviathan"
 		"Shio Firebird" 2
 		"Scout (Eden)" 5
-	variant 2
+	variant 10
 		"Shio Firebird" 4
 		"Berserker (Eden)" 6
 		"Scout (Eden)" 8
+	variant 1
+		"Bactrian (Eden)"
+	variant 1
+		"Dromedary"
 
 fleet "Eden Attack Fleet"
 	government "Merchant"
@@ -172,15 +176,21 @@ fleet "Eden Attack Fleet"
 	personality
 		heroic
 	variant
+		"Bactrian (Eden)"
+		"Dromedary"
 		"Shio Leviathan" 6
 		"Shio Firebird" 6
 		"Berserker (Eden)" 6
 	variant
+		"Bactrian (Eden)"
+		"Dromedary"
 		"Shio Leviathan" 5
 		"Aerie (Eden)" 2
 		"Shio Firebird" 5
 		"Berserker (Eden)" 6
 	variant
+		"Bactrian (Eden)"
+		"Dromedary"
 		"Shio Leviathan" 4
 		"Aerie (Eden)"
 		"Shio Firebird" 7
@@ -401,8 +411,27 @@ ship "Aerie" "Aerie (Eden)"
 
 ship "Bactrian" "Bactrian (Eden)"
 	outfits
-		"Hyperdrive"
+		"Plasma Cannon" 4
+		"Heavy Anti-Missile Turret" 2
+		"Particle Waveform Turret" 2
+		"Sheragi Anti-Missile"
 
+		"D67-TM Shield Generator"
+		"Light Particle Shielding"
+		"Electronic Warfare System"
+		"Large Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Outfits Expansion" 2
+		"Small Hybrid Cooling"
+		"Breeder Reactor"
+		"Fission Core"
+		"LP144a Battery Pack"
+		"Laser Rifle" 175
+		"Security Station" 6
+
+		"Orca Plasma Thruster"
+		"Orca Plasma Steering"
+		"Hyperdrive
 
 ship "Dromedary"
 	plural "Dromedaries"
@@ -410,7 +439,7 @@ ship "Dromedary"
 	thumbnail "thumbnail/modified dromedary"
 	attributes
 		category "Utility"
-		"cost" 57600000
+		"cost" 20000000
 		"shields" 15100
 		"hull" 9600
 		"required crew" 95
@@ -434,21 +463,30 @@ ship "Dromedary"
 			"hull damage" 1300
 			"hit force" 3900
 	outfits
-		"Thrasher Turret" 2
-		"Heavy Anti-Missile Turret" 2
+		"Particle Waveform Turret" 2
+		"Anti-Missile Turret"
+		"Heavy Anti-Missile Turret"
 		"Sheragi Anti-Missile"
+		"Torpedo Launcher" 3
+		"Torpedo" 90
 
-		"Aeon Cell"
-		"Crystal Capacitor" 2
-		"Thermoelectric Cooler" 3
-		"Quantum Key Stone"
-		"Salvage Scanner"
+		"Cooling Ducts"
+		"D67-TM Shield Generator"
+		"Light Particle Shielding"
+		"Electronic Warfare System"
+		"Large Radar Jammer"
+		"Small Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Outfits Expansion" 3
+		"Small Hybrid Cooling"
+		"LP144a Battery Pack"
 		"Laser Rifle" 200
+		"Security Station" 9
 
-		"Smelter-Class Thruster"
-		"Smelter-Class Steering"
+		"Large Fission Drive"
+		"Impala Plasma Steering"
+		"Greyhound Plasma Thruster"
 		"Hyperdrive"
-		"Scram Drive"
 
 	engine 32.5 207
 	engine 3 207
@@ -461,11 +499,11 @@ ship "Dromedary"
 		angle 270
 	gun 78 64
 		angle 90
-	turret 10 -136.5 "Thrasher Turret"
-	turret -21.5 -57.5 "Point Defense Turret"
-	turret 51 101
-	turret -63.5 120 "Thrasher Turret"
-	turret 52.5 143 "Point Defense Turret"
+	turret 10 -136.5 "Particle Waveform Turret"
+	turret -21.5 -57.5 "Heavy Anti-Missile Turret"
+	turret 51 101 "Anti-Missile Turret"
+	turret -63.5 120 "Particle Waveform Turret"
+	turret 52.5 143 "Sheragi Anti-Missile"
 	bay "Fighter" -51 -54 under
 		"launch effect" "human internal"
 	bay "Fighter" 47 -40 under
@@ -480,3 +518,43 @@ ship "Dromedary"
 	"final explode" "final explosion large"
 	description `The Tycho Crater Cooperative's Dromedary was one of the foremost colonization ships during the early era before piracy became rampant and triggered the necessity for city-ships to be more combat-oriented. These ships incorporate extensive hydroponics, large construction equipment installations, and hundreds of densely packed "dream cells" built to transport people in bulk.`
 
+ship "Llama"
+	sprite "ship/llama"
+	thumbnail "thumbnail/llama"
+	attributes
+		category "Fighter"
+		cost 425000
+		"shields" 1000
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 55
+		"drag" .59
+		"heat dissipation" .27
+		"outfit space" 520
+		"weapon capacity" 250
+		"engine capacity" 350
+		"cargo space" 100
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Plasma Cannon"
+
+		"nGVF-AA Fuel Cell"
+		"KP-6 Photovoltaic Array"
+		"Small EM Battery"
+
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Thruster"
+
+	gun 13 -21
+	engine 3 36.5
+	leak "leak" 70 50
+	leak "flame" 50 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "LLama"
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
