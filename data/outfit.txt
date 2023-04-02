@@ -200,7 +200,7 @@ outfit "Fusion Core"
 
 outfit "Sheragi Solar Intake"
 	category "Systems"
-	cost 92000
+	cost 220000
 	thumbnail "outfit/solar intake"
 	"mass" 12
 	"outfit space" -10

@@ -591,8 +591,8 @@ ship "Llama"
 	attributes
 		category "Fighter"
 		cost 725000
-		"shields" 1000
-		"hull" 1000
+		"shields" 1400
+		"hull" 900
 		"required crew" 1
 		"bunks" 1
 		"mass" 55
@@ -613,6 +613,7 @@ ship "Llama"
 		"nGVF-AA Fuel Cell"
 		"KP-6 Photovoltaic Array"
 		"Small EM Battery"
+		"Cooling Ducts"
 
 		"Chipmunk Plasma Thruster"
 		"Chipmunk Plasma Steering"

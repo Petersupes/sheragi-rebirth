@@ -2619,7 +2619,7 @@ planet Charirfla
 
 planet Daarnik
 	attributes eden military station
-	landscape land/asteroid0
+	landscape land/station11
 	description "This massive battlestation was created to be the last line of defense for the Sheragi people, the location of what will be a great final stand against the last adversary in the war filled history of the Sheragi. The ruling government makes its residence within the fortified hull of Daarnik, and from here their decisions influence the entirety of Eden, Sheragi and Human alike."
 	spaceport "The spaceport here is the most uptight military situation you've ever seen, clearly noone who the Sheragi don't want to be here will step foot in this station."
 	government "Sheragi (Rebirth)"
@@ -2825,7 +2825,7 @@ planet Thaczil
 
 planet Vehallar
 	attributes eden factory station
-	landscape land/mars3
+	landscape land/station16
 	description "Vehallar is a massive shipyard station, created to provide for the Sheragi military. The station is always in need of supplies to continue its mass fabrication of warships."
 	spaceport "The spaceport is a small hub where the station workers live and provides a few necessities for them."
 	government "Sheragi (Rebirth)"
