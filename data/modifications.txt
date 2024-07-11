@@ -28,7 +28,6 @@ outfit "Particle Waveform Turret"
 	weapon
 		"shield damage" 120
 		"hull damage" 300
-	description "This ancient Sheragi turret accelerates a dense packet of electrons that, while very ineffective against any kind of shielding, has a very long range and disrupts electrical systems. By the nature of these weapons, one can deduce that their tactics likely involved using large spinal-mounted weapons at long range to break the enemy shields and finishing them off at relatively close range with the Particle Waveform Turrets."
 
 outfit "Dragonflame Cannon"
 	licenses
@@ -39,3 +38,7 @@ outfit "Dragonflame Cannon"
 ship "Black Diamond"
 	licenses
 		"Sheragi"
+
+ship "Emerald Sword"
+	licenses
+		"Sheragi Capital"

@@ -1,6 +1,6 @@
 mission "Sheragi Bounty Hunting (Tiny) 1"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "An automated Dishonoured fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "An automated Dishonored fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Amuul"
@@ -27,8 +27,8 @@ mission "Sheragi Bounty Hunting (Tiny) 1"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Tiny) 2"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "An automated Dishonoured fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "An automated Dishonored fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Myink"
@@ -56,7 +56,7 @@ mission "Sheragi Bounty Hunting (Tiny) 2"
 
 mission "Sheragi Bounty Hunting (Tiny) 3"
 	name "Wanted Dishonoured ship in <waypoints>"
-	description "An automated Dishonoured fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	description "An automated Dishonored fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Loaw"
@@ -83,8 +83,8 @@ mission "Sheragi Bounty Hunting (Tiny) 3"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Tiny) 4"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "An automated Dishonoured fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "An automated Dishonored fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Lyrik"
@@ -111,8 +111,8 @@ mission "Sheragi Bounty Hunting (Tiny) 4"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Tiny) 5"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "An automated Dishonoured fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "An automated Dishonored fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Crayiss"
@@ -139,8 +139,8 @@ mission "Sheragi Bounty Hunting (Tiny) 5"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Tiny) 6"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "An automated Dishonoured fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "An automated Dishonored fighter named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "I'gra"
@@ -167,8 +167,8 @@ mission "Sheragi Bounty Hunting (Tiny) 6"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Small) 1"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A relatively small Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A relatively small Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Amuul"
@@ -201,8 +201,8 @@ mission "Sheragi Bounty Hunting (Small) 1"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Small) 2"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A relatively small Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A relatively small Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Myink"
@@ -235,8 +235,8 @@ mission "Sheragi Bounty Hunting (Small) 2"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Small) 3"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A relatively small Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A relatively small Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Loaw"
@@ -269,8 +269,8 @@ mission "Sheragi Bounty Hunting (Small) 3"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Small) 4"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A relatively small Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A relatively small Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Lyrik"
@@ -303,8 +303,8 @@ mission "Sheragi Bounty Hunting (Small) 4"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Small) 5"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A relatively small Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A relatively small Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Crayiss"
@@ -337,8 +337,8 @@ mission "Sheragi Bounty Hunting (Small) 5"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Small) 6"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A relatively small Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A relatively small Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "I'gra"
@@ -371,8 +371,8 @@ mission "Sheragi Bounty Hunting (Small) 6"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Medium) 1"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Amuul"
@@ -400,8 +400,8 @@ mission "Sheragi Bounty Hunting (Medium) 1"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Medium) 2"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Myink"
@@ -429,8 +429,8 @@ mission "Sheragi Bounty Hunting (Medium) 2"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Medium) 3"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Loaw"
@@ -458,8 +458,8 @@ mission "Sheragi Bounty Hunting (Medium) 3"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Medium) 4"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Lyrik"
@@ -487,8 +487,8 @@ mission "Sheragi Bounty Hunting (Medium) 4"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Medium) 5"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Crayiss"
@@ -516,8 +516,8 @@ mission "Sheragi Bounty Hunting (Medium) 5"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Medium) 6"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "I'gra"
@@ -545,8 +545,8 @@ mission "Sheragi Bounty Hunting (Medium) 6"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Medium) 7"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Andowinor"
@@ -574,8 +574,8 @@ mission "Sheragi Bounty Hunting (Medium) 7"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Medium) 8"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Douhvy"
@@ -603,8 +603,8 @@ mission "Sheragi Bounty Hunting (Medium) 8"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Large) 1"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A large Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A large Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Amuul"
@@ -644,8 +644,8 @@ mission "Sheragi Bounty Hunting (Large) 1"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Large) 2"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A large Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A large Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Myink"
@@ -685,8 +685,8 @@ mission "Sheragi Bounty Hunting (Large) 2"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Large) 3"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A large Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A large Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Loaw"
@@ -726,8 +726,8 @@ mission "Sheragi Bounty Hunting (Large) 3"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Large) 4"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A large Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A large Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Lyrik"
@@ -767,8 +767,8 @@ mission "Sheragi Bounty Hunting (Large) 4"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Large) 5"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A large Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A large Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Crayiss"
@@ -808,8 +808,8 @@ mission "Sheragi Bounty Hunting (Large) 5"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Large) 6"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A large Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A large Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "I'gra"
@@ -849,8 +849,8 @@ mission "Sheragi Bounty Hunting (Large) 6"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Large) 7"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A large Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A large Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Andowinor"
@@ -890,8 +890,8 @@ mission "Sheragi Bounty Hunting (Large) 7"
 		dialog phrase "generic bounty hunting payment dialog"
 
 mission "Sheragi Bounty Hunting (Large) 8"
-	name "Wanted Dishonoured ship in <waypoints>"
-	description "A large Dishonoured warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
+	name "Wanted Dishonored ship in <waypoints>"
+	description "A large Dishonored warship named the <npc> has been spotted in the <waypoints> system. Destroy it and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	waypoint "Douhvy"

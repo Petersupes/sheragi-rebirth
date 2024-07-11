@@ -224,7 +224,7 @@ ship "Gold Shield"
 	"final explode" "nuke explosion" 2
 	"final explode" "nuke residue fast" 50
 	description "A powerful Sheragi carrier designed to quickly deploy fighters to swarm enemy ships. The ship comes equipped with a more powerful version of the repair system the Black Diamonds use. This increases its survivability, providing time for the fighters to finish off the enemy."
-	description "For the Sheragi, this ship could hold arouned 90 individuals. For others, however, that number more than doubles, bringing it on par with the largest city ships."
+#	description "For the Sheragi, this ship could hold around 90 individuals. For others, however, that number more than doubles, bringing it on par with the largest city ships."
 
 ship "Emerald Sword" "Emerald Sword (Modern)"
 	add attributes
@@ -364,7 +364,7 @@ ship "Opal Glaive"
 	explode "nuke explosion" 2
 	"final explode" "nuke explosion" 2
 	"final explode" "nuke residue fast" 50
-	description "A powerful Sheragi warship that was crewed by mutineers that fled from their civil war and escaped into interstellar space. Found orbiting a disconnected star, this is an impressively large ship, fit for the equally large Sheragi. The ship's main weapon is a fusion-pumped gamma-ray laser called the 'Dragonflame Cannon.' Despite the relatively primitive outfits, it's still a very capable war machine due to its size."
+#	description "A powerful Sheragi warship that was crewed by mutineers that fled from their civil war and escaped into interstellar space. Found orbiting a disconnected star, this is an impressively large ship, fit for the equally large Sheragi. The ship's main weapon is a fusion-pumped gamma-ray laser called the 'Dragonflame Cannon.' Despite the relatively primitive outfits, it's still a very capable war machine due to its size."
 	description "For its original Sheragi masters, this warship was home to around 100 individuals. For others, however, that number more than doubles, bringing it on par with the largest city ships."
 
 ship "Opal Glaive" "Opal Glaive (Light)"
@@ -475,7 +475,7 @@ ship "Bronze Edge"
 	explode "medium explosion" 28
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Sheragi, despite being large creatures have managed to create a warship of relatively small size, having space for its passengers while still remaining, somehow, functional."
+	description "The Sheragi, despite being large creatures, have managed to create a warship of relatively small size. It has space for passengers while still remaining, somehow, functional."
 
 ship "Ruby Hammer"
 	sprite ship/rubyhammer
@@ -556,7 +556,7 @@ ship "Ruby Hammer"
 	explode "large explosion" 42
 	explode "huge explosion" 28
 	"final explode" "final explosion large" 2
-	description "This Sheragi freighter outclasses any other freighter merely through its size. The Ruby Hammer was designed to cross the empty and dangerous space full of ion storms seperating Eden in two. It's unique hull shape helps provide some ion resistance."
+	description "This Sheragi freighter outclasses any other freighter merely through its size. The Ruby Hammer was designed to cross the empty and dangerous space full of ion storms seperating Eden in two. Its unique hull shape helps provide some ion resistance."
 
 ship "White Brand"
 	sprite ship/whitebrand
@@ -650,4 +650,4 @@ ship "White Brand"
 	explode "large explosion" 45
 	explode "huge explosion" 32
 	"final explode" "final explosion large" 2
-	description "This Sheragi warship is a mainstay of the Sheragi military, providing the combat power neccesary while remaining cost effective enough that it can be present in numbers within the battlefield."
+	description "This Sheragi warship is the mainstay of the Sheragi military, providing the combat power neccesary while remaining cost effective enough that it can be present in numbers within the battlefield."

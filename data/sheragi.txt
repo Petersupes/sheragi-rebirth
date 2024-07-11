@@ -73,40 +73,33 @@ shipyard "Sheragi Advanced"
 # Ship names:
 phrase "sheragi"
 	word
-		"Jennu" #great
-		"Janikup" #mighty
-		"Tiichiul" #honourable
-		"Lorkor" #strong
-		"Ingowilel" #graceful
-		"Ethimir" #burning
-		"Lleisgarir" #rising
+		"Jennu" # great
+		"Janikup" # mighty
+		"Tiichiul" # honorable
+		"Lorkor" # strong
+		"Ingowilel" # graceful
+		"Ethimir" # burning
+		"Lleisgarir" # rising
 	word
 		" "
 	word
-		"Cayosin" #blade
-		"Airemar" #destroyer
-		"Arytiss" #warrior
-		"Daron" #knight
-		"Woari" #wanderer
-		"Letni" #flame
-		"Caex" #sword
+		"Cayosin" # blade
+		"Airemar" # destroyer
+		"Arytiss" # warrior
+		"Daron" # knight
+		"Woari" # wanderer
+		"Letni" # flame
+		"Caex" # sword
 
 # Hails:
 phrase "friendly sheragi"
 	word
 		"Greetings."
-
-phrase "friendly sheragi"
-	word
 		"We fight with honour."
-
-phrase "friendly sheragi"
-	word
 		"We welcome you warrior."
 	word
-		" "
-	word
-		"Honour upon you."
+		"Honor upon you."
+		" " 2
 
 phrase "friendly disabled sheragi"
 	word
@@ -124,11 +117,11 @@ phrase "friendly disabled sheragi"
 	word
 		" "
 	word
-		"Honour upon you."
+		"Honor upon you."
 
 phrase "hostile sheragi"
 	word
-		"You have dishonoured yourself warrior,"
+		"You have dishonored yourself warrior,"
 	word
 		" "
 	word
@@ -137,7 +130,7 @@ phrase "hostile sheragi"
 
 phrase "hostile sheragi"
 	word
-		"Dishonoured scum!"
+		"Dishonored scum!"
 		"Tarnished warrior!"
 	word
 		" "
@@ -147,7 +140,7 @@ phrase "hostile sheragi"
 		
 phrase "hostile disabled sheragi"
 	word
-		"Dishonoured one"
+		"Dishonored one"
 		"Disgraced warrior"
 	word
 		", you "
@@ -158,7 +151,7 @@ phrase "hostile disabled sheragi"
 		" "
 	word
 		"Finish me so I may be granted the honour of death by combat."
-		"It brings me shame to be defeated by a dishonourable warrior such as you."
+		"It brings me shame to be defeated by a dishonorable warrior such as you."
 
 phrase "hostile disabled sheragi"
 	word
@@ -172,5 +165,5 @@ phrase "hostile disabled sheragi"
 		" "
 	word
 		"I wish to redeem myself from this defeat."
-		"I am afraid to die dishonourably."
+		"I am afraid to die dishonorably."
 		"I wish to see my family once more."

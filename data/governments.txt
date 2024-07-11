@@ -43,7 +43,7 @@ government "Sheragi (Dishonoured)"
 	"hostile disabled hail" "hostile sheragi"
 
 government "Sheragi (Bounty)"
-	"display name" "Sheragi (Dishonoured"
+	"display name" "Sheragi (Dishonoured)"
 	swizzle 11
 	"player reputation" -1000
 	"fine" 0
