@@ -37,5 +37,6 @@ outfit "Dragonflame Cannon"
 # ship modifications
 
 ship "Black Diamond"
-	licenses
-		"Sheragi"
+	attributes
+		licenses
+			"Sheragi"

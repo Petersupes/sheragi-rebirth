@@ -155,7 +155,7 @@ ship "Gold Shield" "Gold Shield (Pulse)"
 
 ship "Gold Shield" "Gold Shield (Pwave)"
 	outfits
-		"Heavy Ion Cyclotron" 8
+		"Heavy Ion Cyclotron" 7
 		"Sheragi Anti-Missile" 2
 		
 		"Large EM Battery"
@@ -168,7 +168,7 @@ ship "Gold Shield" "Gold Shield (Pwave)"
 
 ship "Gold Shield" "Gold Shield (Cyclotron)"
 	outfits
-		"Heavy Ion Cyclotron" 8
+		"Heavy Ion Cyclotron" 7
 		"Sheragi Anti-Missile" 2
 		
 		"Large EM Battery"

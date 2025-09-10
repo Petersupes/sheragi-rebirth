@@ -369,7 +369,7 @@ ship "Opal Glaive"
 
 ship "Opal Glaive" "Opal Glaive (Light)"
 	outfits
-		"Particle Waveform Turret" 6
+		"Sheragi Pulse Beam Turret" 6
 		"Sheragi Anti-Missile" 2
 		"Large EM Battery"
 		"Large Hybrid Cooling"
@@ -388,7 +388,7 @@ ship "Opal Glaive" "Opal Glaive (Light)"
 
 ship "Opal Glaive" "Opal Glaive (Shadow)"
 	outfits
-		"Particle Waveform Turret" 6
+		"Sheragi Pulse Beam Turret" 6
 		"Sheragi Anti-Missile" 2
 		"Large EM Battery"
 		"Large Hybrid Cooling"

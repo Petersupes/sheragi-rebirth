@@ -28,7 +28,7 @@ fleet "Sheragi Fleet Big"
 		"Bronze Edge" 2
 		"White Brand" 2
 	variant 4
-		"Emerald Sword (modern)"
+		"Emerald Sword (Modern)"
 		"Gold Shield" 2
 		"Black Diamond" 28
 		"Bronze Edge" 2

@@ -227,7 +227,7 @@ outfit "Quantum Energy Field"
 	category "Special"
 	thumbnail "outfit/unknown"
 	"quantum keystone" 1
-	description "This field of quantum energy was placed around your ship by an Archon to allow you to travel through unstable wormholes. It is best you do so quickly as there is no way of knowing how long the field will last.
+	description "This field of quantum energy was placed around your ship by an Archon to allow you to travel through unstable wormholes. It is best you do so quickly as there is no way of knowing how long the field will last."
 
 # Weapons
 
@@ -339,6 +339,7 @@ outfit "Sheragi Pulse Beam Turret"
 		"burst count" 60
 		"firing energy" 5.5
 		"firing heat" 11
+		"turret turn" 1.2
 		"shield damage" 10
 		"hull damage" 11
 	description "This beam turret is the peak of standard Sheragi weaponry, balanced in its effectiveness at damaging both shields and hull. One should beware the high energy cost of this weapon and the difficulty installing a weapon of such a size."

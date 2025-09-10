@@ -132,9 +132,9 @@ mission "Sheragi intro 1"
 				`	"I understand."`
 					goto understand
 				`	"Why not?"`
-			`	"It may have unforeseen effects on the Sheragi if others start to encroach on our territory."
+			`	"It may have unforeseen effects on the Sheragi if others start to encroach on our territory."`
 			choice
 				`	"I understand."`
 			label understand
-			`	"Good," he replies. Afterwards he escorts you out of the security station.
+			`	"Good," he replies. Afterwards he escorts you out of the security station.`
 				decline

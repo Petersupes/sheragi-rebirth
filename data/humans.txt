@@ -175,7 +175,7 @@ fleet "Eden Merchants Large"
 		"Scout (Eden)" 5
 	variant 50
 		"Mule (Eden)" 4
-		"Llama (Eden)" 4
+		"Llama" 4
 	variant 40
 		"Shio Firebird" 4
 		"Berserker (Eden)" 6
@@ -197,7 +197,7 @@ fleet "Eden Attack Fleet"
 		"Bactrian (Eden)"
 		"Dromedary"
 		"Mule (Eden)" 2
-		"Llama (Eden)" 7
+		"Llama" 7
 		"Shio Leviathan" 5
 		"Shio Firebird" 5
 		"Berserker (Eden)" 6
@@ -205,7 +205,7 @@ fleet "Eden Attack Fleet"
 		"Bactrian (Eden)"
 		"Dromedary"
 		"Mule (Eden)" 2
-		"Llama (Eden)" 11
+		"Llama" 11
 		"Shio Leviathan" 4
 		"Aerie (Eden)" 2
 		"Shio Firebird" 4
@@ -214,7 +214,7 @@ fleet "Eden Attack Fleet"
 		"Bactrian (Eden)"
 		"Dromedary"
 		"Mule (Eden)" 2
-		"Llama (Eden)" 9
+		"Llama" 9
 		"Shio Leviathan" 3
 		"Aerie (Eden)"
 		"Shio Firebird" 6
@@ -498,7 +498,7 @@ ship "Bactrian" "Bactrian (Eden)"
 
 		"Orca Plasma Thruster"
 		"Orca Plasma Steering"
-		"Hyperdrive
+		"Hyperdrive"
 
 ship "Dromedary"
 	plural "Dromedaries"
